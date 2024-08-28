@@ -1,0 +1,1310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.hero{
+    background-image: url(/assets/images/real-estate.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.hero-card{
+    margin-left: 8%;
+    padding: 5% 4%;
+    width: 47vw;
+    /* height: 60vh; */
+    opacity: 0.95px;
+    background: #499A5AF2;
+}
+.line-width{
+    width: 50%;
+}
+.dropdown{
+    display: none;
+}
+.nav-bar{
+    display: flex;
+    list-style: none;
+  
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 19.5px;
+    margin-top: 8%;
+}
+.nav-bar a{
+    color: unset;
+    text-decoration: none;
+}
+.hero-card h1{
+    margin-top: 15%;
+    margin-bottom: 7%;
+    font-family: Montserrat;
+    font-size: 3.2vw;
+    font-weight: 800;
+    line-height: 58.51px;
+}
+.clr-orange{
+    color: #EF980C;
+}
+.btn-holder{
+    display: flex;
+}
+.btn1{
+    text-decoration: none;
+    font-size: 0.9vw;
+    font-weight: 600;
+    padding: 2vh 3.3vw;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    margin-right: 3%;
+}
+/* .btn1 a{
+    
+   
+} */
+.btn2{
+    display: flex;
+    font-size: 0.9vw;
+    font-weight: 600;
+    padding: 2vh 3.3vw;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    color: #EF980C;
+    box-shadow: 0px 3px 2px 0px #0000001A;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+.btn-icon{
+    width: 12%;
+    position: relative;
+    right: 8%;
+}
+.section-head{
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 7vh;
+    border-bottom: 1px solid #0000004D;
+}
+.section-head h1{
+    font-size: 1.3vw;
+    font-weight: 600;
+    line-height: 21.94px;
+    color: #499A5A;
+    margin-bottom: 1.5vh;
+}
+.section-head h2{
+    font-size: 2.8vw;
+    font-weight: 800;
+    line-height: 48.76px;
+    margin-bottom: 2vh;
+}
+.section-head p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    color: #7C7C7C;
+    padding: 1vh 22vw;
+}
+.section-card{
+    background-image: url(/assets/images/image\ 20.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    /* margin-top: 2vh; */
+    padding-top: 50vh;
+    padding-bottom: 5vh;
+    padding-left: 3vw;
+    padding-right: 9vw;
+    justify-content: space-between;
+}
+.section-card-left{
+    width: 40%;
+    margin-bottom: 3vh;
+}
+.section-card-left h3{
+    font-family: Montserrat;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 36.57px;
+    text-align: left;
+    margin-bottom: 4vh;
+
+}
+.section-card-left p{
+    font-size: 1.15vw;
+    font-weight: 700;
+    line-height: 21.94px;
+    text-align: left;
+    padding-right: 20%;
+    color: #D9D9D9;
+
+}
+.time-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 4vw;
+}
+.section-card-right{
+    padding-top: 5%;
+    
+}
+#or br{
+    display: none;
+}
+.section-card-right h4{
+    font-size: 1.1vw;
+    font-weight: 800;
+    line-height: 19.5px;
+    text-align: left;
+
+}
+#tablet-article{
+    display: none;
+}
+.time-flex{
+    font-size: 0.9vw;
+    font-weight: 600;
+    line-height: 17.07px;
+
+}
+.learn-more{
+    display: flex;
+    background-color: #499A5A;
+    padding: 4vh 25vw;
+    padding-left: 19vw;
+    justify-content: space-between;
+    color: #ffffff;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+    /* margin-bottom: 60vh; */
+}
+.container-overlay {
+    height: 650px;
+    background-color: #499A5A;
+    margin-top: 50vh;
+}
+.overlay{
+    position: relative;
+    width: 67vw;
+    /* height: 125vh; */
+    top: -29vh;
+    left: 15vw;
+    gap: 0px;
+    border-radius: 30px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 4px solid #D9D9D9;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.overlay-heading{
+    display: none;
+}
+.learn-more a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+.learn-more p{
+    padding-top: 1%;
+}
+.learn-a1{
+    display: flex;
+    width: 20vw;
+    padding-left: 4vw;
+}
+.learn-a2{
+    padding-top: 0.3vh;
+    text-decoration: underline !important;
+    text-decoration-color: #ffffff;
+}
+.tabhero-line{
+    background-color: #c4c3c3;
+    height: 1px;
+}
+.tablet-article{
+    padding: 0 8%;
+    padding-top: 13vh;
+}
+.tablet-article h2{
+    margin-top: 7vh;
+    font-size: 2.3vw;
+}
+.tab-article-p{
+    margin: 3vh 0;
+
+    font-size: 1.4vw;
+}
+.tablet-article ul{
+    margin-top: 3vh;
+    margin-left: 5vw;
+}
+.tablet-article li{
+    margin-bottom: 2vh;
+}
+.list-item{
+    margin: 0 3vw;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+    text-align: left;
+
+}
+.list-item ul{
+    margin: 4%;
+}
+.list-item li{
+    margin-bottom: 2%;
+    font-size: 1.2vw;
+}
+.overlay h3{
+    font-size: 2.2vw;
+    font-weight: 600;
+    line-height: 28.57px;
+    margin-left: 8vw;
+    margin-top: 9vh;
+}
+
+.overlay img{
+    margin-left: 6vw;
+}
+.overlay p{
+    margin-top: 4vh;
+    font-family: Montserrat;
+    font-size: 1.4vw;
+    font-weight: 500;
+    line-height: 29.26px;
+}
+.tablet-mode{
+    display: none;
+}
+/* MEDIA QUERY */
+@media screen and (max-width: 837px) {
+    .dropdown{
+        display: none;
+    }
+    .desktop-mode{
+        display: none;
+    }
+    .tablet-mode{
+        display: initial;
+    }
+    
+.hero-card {
+    padding: 5% 4%;
+    width: 50vw;
+}
+.nav-bar {
+    scale: 1.15;
+    margin-left: 5%;
+}
+    .tabhero{
+        background-image: url(/assets/images/image201.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding-top: 48vh;
+        padding-bottom: 8vh;
+        padding-left: 8vw;
+        padding-right: 9vw;
+        margin: 8%;
+    }
+    .hero-card h1 {
+        font-size: 3.8vw;
+        margin-bottom: 5%;
+    }
+    .btn1 {
+        font-size: 1.2vw;
+    }
+    .btn2 {
+        font-size: 1.2vw;
+    }
+    .tabhero-line{
+        background-color: #c4c3c3;
+        height: 1px;
+    }
+    .tablet-article{
+        padding: 0 8%;
+        padding-top: 13vh;
+    }
+    .tablet-article h3{
+        margin-top: 7vh;
+    }
+    .tab-article-p{
+        margin: 3vh 0;
+        font-size: 1.8vw;
+    }
+    .tablet-article ul{
+        margin-top: 3vh;
+        margin-left: 5vw;
+    }
+    .tablet-article li{
+        margin-bottom: 2vh;
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .tablet-mode{
+        display: none;
+    }
+    .desktop-mode{
+        display: initial;
+    }
+    .hero-card {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .nav-bar {
+        scale: initial;
+        margin-left: 0%;
+        justify-content: center;
+        font-size: 2.2vw;
+    }
+    .hero-card h1 {
+        font-size: 6vw;
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+    .btn-holder {
+        display: block;
+    }
+    .btn1 {
+        font-size: 2.5vw;
+        padding: 2vh 34vw;
+        display: block;
+    }
+    .btn2 {
+        font-size: 2.5vw;
+        margin-top: 2vh;
+        padding: 2vh 32vw;
+        display: block inline-block;
+    }
+    .section-head {
+        padding-top: 1vh;
+    }
+    .section-head h1 {
+        margin-top: 4vh;
+        font-size: 3.8vw;
+        line-height: initial;
+        margin-bottom: 0;
+    }
+    .section-head h2 {
+        font-size: 5vw;
+        margin-top: 1vh;
+        line-height: initial;
+    }
+    .section-head p {
+        padding: 1vh 6vw;
+        font-size: 4vw;
+        margin-bottom: 2vh;
+    }
+    .section-card {
+        padding-top: 20vh;
+        display: block;
+    }
+    .section-card-left {
+        display: none;
+    }
+    .section-card-right {
+        width: 70%;
+        margin-left: 30%;
+    }
+    .time-flex {
+        font-size: 2.5vw;
+    }
+    .section-card-right h4 {
+        font-size: 3.5vw;
+        line-height: 20.5px;
+    }
+    #tablet-article{
+        display: block;
+    }
+    .tablet-article h2 {
+        margin-top: -10vh;
+        font-size: 6vw;
+    }
+    .tab-article-p {
+        font-size: 3.2vw;
+        font-weight: 500;
+    }
+    .learn-more {
+        margin-top: 2vh;
+        padding: 4vh 7vw;
+        padding-left: 12vw;
+    }
+    .learn-more p {
+        font-size: 3vw;
+        scale: 1.5;
+        position: relative;
+        top: 1vh;
+    }
+    .btn-icon {
+        width: 12%;
+        scale: 4;
+        right: 50%;
+    }
+    #or br{
+        display: block;
+    }
+    .learn-a2 b{
+        font-size: 4vw;
+    }
+    .learn-a2{
+        text-decoration: none !important;
+        scale: 1.3;
+        position: relative;
+        bottom: 0vh;
+    }
+    .line-width{
+        width: 100%;
+    }
+    .overlay h3{
+        display: none;
+    }
+    .overlay img{
+        display: none;
+    }
+    .overlay-heading {
+        display: block;
+        width: 100%;
+        padding: 6vh 8vw;
+    }
+    .container-overlay {
+        height: 135vh;
+        margin-top: 25vh;
+        margin-top: 15vh;
+    }
+    .overlay-heading h2{
+        margin-left: 3%;
+        font-size: 5vw;
+    }    
+    .overlay p{
+        font-size: 2.7vw;
+    }
+    .list-item li {
+        font-size: 2.7vw;
+        margin-bottom: 0%;
+    }
+    .overlay{
+        top: -15vh;
+        width: 80vw;
+        left: 10vw;
+        border: 3px solid #5a5a5a;
+    }
+    #icon{
+        width: 3%;
+        position: relative;
+        left: -5vw;
+    }
+}
+
+
+ /* HEADER HEADER HEADER  HEADER HEADER */
+ header {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    align-items: center;
+    gap: 1px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    padding: 8px 0px 4px 30px;
+}
+
+nav {
+    display: flex;
+    padding-left: 12vw;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+}
+
+.login_button a,.contact_us a{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.contact_us {
+    padding: 11px 20px;
+    border-radius: 6px;
+    background-color: #1B7C30;
+    color: white;
+}
+
+.login_button {
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 6px;
+    background-color: inherit;
+}
+
+.buttons_right {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right: 30px;
+}
+.navbar a:hover{
+    color: #1B7C30;
+    font-size: 15px;
+}
+
+.navbar li {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.activelink{
+    color: #1B7C30;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #1B7C30;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.hera_logo{
+    left: 10px;
+
+}
+
+.hera_logo img {
+    height: 32px;
+}
+
+.hera_logo p {
+    font-size: 11.4px;
+    font-weight: 550;
+}
+
+button{
+    border: none;
+}
+
+.nav_phone{
+    display: none;
+}
+.menu-icon {
+    margin-right: 20px;
+    scale: 0.8;
+}
+.nav_phone {
+    text-align: center;
+    height: 90vh;
+}
+
+.menu_bar{
+    position: relative;
+    height: 50px;
+    background-color: #5c595970;
+}
+
+header input{
+    display: none;
+}
+
+.back_icon{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+.back_icon img{
+    height: 40px;
+}
+
+.phone_navbar li {
+    text-align: start;
+    list-style-type: none;
+    padding: 12px 34px;
+    background-color: #7c7c7c70;
+    border-bottom: 1px solid #7f7f7f;
+}
+
+.phone_navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.phone_navbar_container{
+    margin-bottom: 20px;
+}
+
+.phone_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.loginphone{
+    background-color: white;
+    border: 1px solid #499A5A;
+    width: 44%;
+}
+
+.loginphone a{
+    color: #499A5A;
+
+}
+
+.registerphone{
+    background-color: #104D1D;
+    color: white;
+    border: none;
+    width: 40%;
+}
+
+.registerphone a{
+    color: white;
+}
+
+.phone_button {
+    padding: 11px 20px;
+}
+
+.phone_button a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;   
+}
+
+.nav_phone input{
+    display: none;
+}
+
+.menu_footer{
+    background-color: #7C7C7C;
+    display: flex;
+}
+
+.menu_footer {
+    background-color: #7C7C7C;
+    display: flex;
+    padding: 15px 0px;
+    justify-content: center;
+    font-weight: 600;
+    color: #474747;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.service_button a{
+    text-decoration: none;
+    color: #499A5A;
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+/* REESPONSIVENESS */
+@media screen and (min-width:531px) and (max-width:771px ){ 
+    .hera_logo {
+        line-height: 5px;
+        position: absolute;
+        left: 35px;
+    }
+
+    .login_button, .contact_us{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:100px) and (max-width: 530px)  { 
+    
+    .login_button , .contact_us{
+        display: none;
+    }
+
+    header {
+        gap: 8%;
+        flex-direction: row-reverse;
+    }
+
+    .hera_logo img {
+        padding-left: 20px;
+        padding-bottom: 2px;
+        height: 17px;
+    }
+
+    .hera_logo {
+        line-height: 5px;
+        position: absolute;
+        left: 0px;
+    }
+
+    .hera_logo p {
+        font-size: 9px;
+        padding-left: 22px;
+        padding-top: 4px;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .menu-icon img {
+        height: 17px;
+        margin: 0px 3px;
+    }
+}
+
+@media screen and (max-width: 771px){
+    header {
+        gap: 7%;
+        padding: 15px 0px 13px 16px;
+        flex-direction: row-reverse;
+    }
+
+    .navbar,     .nav_button{
+        display: none;
+    }
+
+    .footer-list li {
+        margin: 0px;
+    }
+
+    .footer_items {
+        line-height: 1.5;
+    }
+
+    .menu-icon{
+        display: block;
+        scale: 1.1;
+    }
+
+    .hera_logo p {
+        font-size: 10px;
+        padding-top: 4px;
+    }
+
+    .hera_logo img {
+        height: 18px;
+        padding-bottom: 3px;
+    }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1090px){
+    header {
+        gap: 1%;
+        padding: 8px 0px 4px 7px;
+    }
+
+    .navbar {
+        gap: 34px;
+    }
+
+    .hera_logo img {
+        height: 26px;
+    }
+
+    .hera_logo p {
+        font-size: 11px;
+    }
+
+    nav {
+        padding-left: 11vw;
+    }
+
+    .navbar li {
+        font-size: 12px;
+    }
+
+    .login_button a,.contact_us a{
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .login_button {
+        border: 1px solid white;
+        padding: 7px 25px;
+        border-radius: 6px;
+        background-color: inherit;
+    }
+
+
+    .contact_us {
+        padding: 10px 18px;
+        border-radius: 5px;
+    }
+
+    .navbar a:hover{
+        color: #1B7C30;
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 850px){
+  
+    .login_button a, .contact_us a {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .login_button {
+        padding: 5px 19px;
+        border-radius: 6px;
+    }
+
+    .contact_us {
+        padding: 5px 9px;
+    }
+
+    .buttons_right {
+        display: flex;
+        gap: 13px;
+        position: absolute;
+        right: 14px;
+    }
+}
+
+
+
+@media only screen and (min-width: 772px) and (max-width: 900px) {
+
+    .hera_logo p {
+        font-size: 10px;
+    }
+
+    .hera_logo img {
+        height: 14px;
+    }
+
+    .navbar li {
+        font-size: 12px;
+    }
+
+    .login_button a, .contact_us a {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .login_button {
+
+        padding: 8px 22px;
+        border-radius: 6px;
+    }
+
+    header {
+        gap: 10px;
+        padding: 11px 0px 11px 8px;
+    }
+
+    .navbar {
+        gap: 19px;
+    }
+
+    .contact_us {
+        padding: 7px 14px;
+    }
+
+    nav {
+        display: flex;
+        padding-left: 6vw;
+    }
+}
+/*  HEADER HEADER HEADER HEADER  HEADER HEADER */
+
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4.5%;
+}
+
+.hera_footer {
+    width: 45%;
+    padding: 109px 30px 90px 82px;
+    font-size: 48px;
+    background-color: #000000;
+}
+
+.hera_footer p {
+    width: 61%;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    padding: 2% 0% 3% 0%;
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+.hera_footer h1 {
+    font-size: 23px;
+    color: white;
+}
+
+.footer_items h2 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer_items {
+    display: flex;
+    width: 55%;
+    gap: 29px;
+    padding-top: 55px;
+    color: white;
+    background-color: #000000;
+}
+
+.footer_items >div{
+    width: 33.3%;
+}
+
+.footer_items li{
+    list-style-type: none;
+
+}
+
+.footer-list li {
+    margin: 7.5% 0%;
+}
+
+.footer_items a {
+    text-decoration: none;
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+
+.hera_socials{
+    display: flex;
+    position: relative;
+    gap: 2%;
+    padding: 1% 0%;
+    background-color: #111111;
+    color: white;
+    width: 100%;
+}
+
+.connect_phone{
+    background-color: #1b1a1a;
+    display: flex;
+    color: white;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 13px 0px;
+}
+
+.connect_phone_left {
+    display: flex;
+    padding-left: 80px;
+    align-items: center;
+}
+
+.x{
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.connect_phone_right {
+    display: flex;
+    position: absolute;
+    right: 59px;
+}
+
+.handle_image{
+    scale: 0.8;
+}
+
+.connect_phone_right p {
+    padding-top: 3px;
+    padding-left: 9px;
+}
+
+.connect_phone_right a{
+    text-decoration: none;
+    color: white;
+}
+
+.connect_phone_right a:hover{
+    color: rgb(104, 110, 99);
+    font-weight: 500;
+}
+
+.hera_socials h3{
+    padding: 0% 5%;
+    font-size: 1.3rem;
+}
+
+.hera_num{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right:5%;
+}
+
+.footer-list li:hover a {
+    color: green;
+    font-size: 14.5px;
+    padding-left: 1px;
+}
+
+.hidden {
+    display: none;
+  }
+
+
+header input{
+    display: none;
+}
+
+
+/* RESPONSIVENESS FOOTER RESPONSIVENESS FOOTER */
+@media screen and (min-width:531px) and (max-width:771px ){ 
+    .hera_footer {
+        width: 100%;
+        order: 2;
+        padding: 0px 30px 8px 22px;
+    }
+
+    .hera_footer p {
+        width: 61%;
+        font-size: 13px;
+    }
+
+    .hera_footer h1 {
+        font-size: 16px;
+    }
+
+    .hera_footer_logo img {
+        width: 83px;
+        height: 50px;
+    }
+
+    .hera_footer_logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .connect_phone_left {
+        display: flex;
+        padding-left: 22px;
+        align-items: center;
+    }
+
+    .connect_phone_left h3 {
+        font-size: 15px;
+    }
+
+    .handle_image {
+        scale: 0.65;
+    }
+    
+    .x {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .connect_phone_right a {
+        font-size: 15px;
+    }
+
+    .footer_items {
+        width: 100%;
+        padding: 4% 0%;
+        line-height: 1.8;
+        padding-left: 25px;
+    }
+
+
+    .footer_items a {
+        font-size: 12px;
+    }
+
+    .footer-list li:hover a {
+        font-size: 12.5px;
+    }
+
+
+    .footer_items h2 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .connect_phone {
+        padding: 6px 0px;
+        order: 3;
+    }
+}
+
+
+@media screen and (min-width:100px) and (max-width: 530px)  { 
+    .hera_footer {
+        width: 100%;
+        order: 2;
+        padding: 8px 30px 0px 22px;
+    }
+
+    .hera_footer p {
+        width: 71%;
+        font-size: 13px;
+    }
+
+    .hera_footer h1 {
+        font-size: 16px;
+    }
+
+    .hera_footer_logo img {
+        width: 83px;
+        height: 50px;
+    }
+
+    .hera_footer_logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .connect_phone_left {
+        display: flex;
+        padding-left: 5%;
+        align-items: center;
+    }
+
+    .connect_phone_left h3 {
+        font-size: 15px;
+    }
+
+    .handle_image {
+        scale: 0.65;
+    }
+    
+    .x {
+        padding-left: 22px;
+        padding-right: 1px;
+    }
+
+    .connect_phone_right a {
+        font-size: 15px;
+    }
+
+    .footer_items >div {
+        width: 100%;
+    }
+
+    .footer_items {
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        padding: 4% 0%;
+        padding-left: 25px;
+    }
+
+    .footer_phone_number{
+        display: none;
+    }
+
+    .connect_phone_right {
+        left: 233px;
+    }
+
+    .footer_items a {
+        font-size: 12px;
+    }
+
+    .footer-list li:hover a {
+        font-size: 12.5px;
+    }
+
+
+    .footer_items h2 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .connect_phone {
+        padding: 6px 0px;
+        order: 3;
+    }
+
+    .faq{
+        order: 2;
+    }
+
+    .our_service_footer{
+        order: 1;
+    }
+
+    .more{
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 771px){
+    .footer-list li {
+        margin: 0px;
+    }
+
+    .footer_items {
+        line-height: 1.5;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1090px) {
+    .footer_items >div {
+        width: 35.3%;
+        line-height: 2;
+    }
+
+    .footer_items {
+        display: flex;
+        width: 60%;
+        gap: 1px;
+        padding-top: 55px;
+        color: white;
+        background-color: #000000;
+    }
+
+    .hera_footer {
+        width: 40%;
+        padding: 109px 30px 90px 32px;
+        font-size: 48px;
+        background-color: #000000;
+    }
+
+    .hera_footer p {
+        width: 79%;
+        font-size: 13px;
+    }
+}
+
+
+
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER */

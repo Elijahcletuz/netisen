@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Request  Service</title>
+    <link rel="stylesheet" href="/assets/css/request_service.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="request_service">
+            <h2>Request service</h2>
+            <span>We pay the price you enjoy the freedom. Make the decision now</span>
+            <p>Book your next waste disposal solution appointment for your business, the easy way and schedule online. Once you have submitted your request form, we will contact you to confirm your appointment.</p>
+        </section>
+
+        <form action="" class="form">
+            <div class="form_line"><img src="/assets/images/form_line.svg" alt=""></div>
+            
+            <h4>Customer Information</h4>
+            <div class="forms">
+                <div class="form_item1 form_item">
+                    <label for="firstname">First Name</label>
+                    <input id="firstname" type="text" placeholder="e.g Noble">
+                </div>
+    
+                <div class="form_item  form_item1">
+                    <label for="othernames">Other Names</label>
+                    <input id="othernames" type="text" placeholder="e.g Noble">
+                </div>
+    
+                <div class="form_item form_item2">
+                    <label for="business_address">Home/Business Address</label>
+                    <input id="business_address"  placeholder="e.g 12, Okon Street, Uyo">
+                </div>
+    
+                <div class="form_item form_item1">
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" placeholder="e.g bassey@gmail.com">
+                </div>
+    
+                <div class="form_item form_item1">
+                    <label for="tel">Phone Number</label>
+                    <input type="number" id="tel" name="phone" inputmode="numeric" placeholder="Enter phone number (max 11 digits)" oninput="this.value = this.value.slice(0, 11)">   
+                </div>
+            </div>
+
+            <div class="form_item select_items">
+                <label for="sel_service" >Select Service:</label>
+                <select name="select_service" id="sel_service" >
+                    <option value="" disabled selected id="sel-services">-select a service-</option>
+                    <option value="Request-Pickup" id="sel-services">Request Pickup</option>
+                    <option value="Cleaning-Service" id="sel-services">Cleaning Service</option>
+                    <option value="Fumigation-Services" id="sel-services">Fumigation Services</option>
+
+                </select>
+            </div>
+
+            <div class="select_item">
+                <div class="select_item1">
+                    <h3>Select Period:</h3>
+                    <input type="radio"  id="morning" name="timeOfDay" value="morning">
+                    <label for="morning">Morning</label>
+                    <input type="radio"  id="afternoon" name="timeOfDay" value="afternoon">
+                    <label for="afternoon">Afternoon</label>
+                    <input type="radio"  id="evening" name="timeOfDay" value="evening">
+                    <label for="evening">Evening</label>
+                </div>
+    
+                <div class="select_item1 select_item2">
+                    <h3>Select Service:</h3>
+                    <input type="radio"  id="req_pickup" name="services" value="request_pickup">
+                    <label for="req_pickup">Waste Pickup</label>
+                    <input type="radio"  id="clean_service" name="services" value="cleaning_services">
+                    <label for="clean_service">Cleaning Service</label>
+                    <input type="radio"  id="fumigation" name="services" value="fumigation_services">
+                    <label for="fumigation">Fumigation Services</label>
+                </div>
+            </div>
+
+            <div class="terms_and_condition">
+                <input type="checkbox" id="tac" name="Terms">
+                <label for="tac">By clicking on the BOX you agree to our <span>TERMS</span> and <span>PRIVACY OF OPERATIONS</span></label>
+            </div>
+
+            <button><a href=""></a>BOOK NOW</button>
+        </form>
+
+
+        <section class="service_tip">
+            <div class="service_tip_left">
+                <h2>Service Tips</h2>
+
+                <ol>
+                    <li>
+                       <span> 1.</span> Waste Pickup
+                        <p>
+                            Ensure that you request for Cleanup before closure time 6PM on phone call or website
+                        </p>
+                    </li>
+
+                    <li>
+                       <span> 2.</span> Dispose Waste Disposal
+                        <p>
+                            Arrange and place waste outside the designated point for collection according to their proper categories
+                        </p>
+                    </li>
+
+                    <li>
+                       <span>  3.</span>Fumigation 
+                        <p>
+                            Our workers will be available to suit your needs within our work frame, your satisfaction is our priority 
+                        </p>
+                    </li>
+                    
+                </ol>
+            </div>
+
+            <div class="service_tip_right">
+                <img src="/assets/images/office-clean.png" alt="">
+            </div>
+
+        </section>
+
+        <footer class="main_footer">
+            <div class="hera_footer">
+                <h1>Eccentric Cleaning Solutions</h1>
+                <p>Environmental Sustainability For Exceptional Results. <br>Try Our Service</p>
+                <div class="hera_footer_logo"><img src="images/heralogo.svg" alt=""></div>
+            </div>
+
+            <div class="footer_items">
+                <div class="faq">
+                    <h2>FAQ</h2>
+                    <ul class="footer-list">
+                        <li><a href="">How Do I Subscribe</a></li>
+                        <li><a href="">How to Purchase Dumbster</a></li>
+                        <li><a href="">Missed Pickup</a></li>
+                        <li><a href="">Send Feedback</a></li>
+                    </ul>
+                </div>
+
+                <div class="our_service_footer">
+                    <h2>Our Services</h2>
+                    <ul class="footer-list">
+                        <li><a href="">Cleaning</a></li>
+                        <li><a href="">Fumigation</a></li>
+                        <li><a href="">Waste Pickup</a></li>
+                      </ul>
+                </div>
+
+                <div class="more">
+                    <h2>More</h2>
+                    <ul class="footer-list">
+                        <li><a href="">Meet Our Team</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                      </ul>
+                </div>
+            </div>
+
+            <div class="connect_phone">
+                <div class="connect_phone_left">
+                    <h3>Connect with Us</h3>
+                    <div class="handle_image x"><img src="images/x.svg" alt=""></div>
+                    <div class="handle_image"><img src="images/facebook.svg" alt=""></div>
+                </div>
+    
+                <div class="connect_phone_right">
+                    <a class="handle_image" href="tel:+2348100675943"><img src="images/phones_icon.svg" alt=""></a>
+                    <p class="footer_phone_number"> <a href="tel:+2348100675943">+234 810 067 5943</a></p>
+                </div>
+            </div>
+        </footer> 
+    </main>
+</body>

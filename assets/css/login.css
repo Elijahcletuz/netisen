@@ -1,0 +1,1086 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    position: relative;
+    background-color: black;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.hera_logo{
+    padding-left: 30px;
+
+}
+
+#active-menu{
+    display: none;
+}
+.hera_logo img {
+    margin-top: 6px;
+    margin-bottom: -4px;
+    height: 25px;
+}
+
+.hera_logo p {
+    font-size: 11.4px;
+    font-weight: 550;
+    padding-bottom: 3px;
+    color: white;
+}
+
+.buttons_right {
+    position: absolute;
+    right: 29px;
+    top: 6px;
+}
+.login_button a{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.login_button {
+    padding: 10px 25px;
+    border-radius: 6px;
+    background-color: inherit;
+    background-color:#499A5A;
+}
+
+button{
+    border: none;
+}
+
+
+.login_container{
+    display: flex;
+}
+
+.login_image {
+    background-image: url(/assets/images/login_background.svg);
+    width: 45%;
+    background-position: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 346px; */
+    position: relative;
+}
+
+.login_content {
+    padding: 8px 50px 4px;
+    width: 55%;
+    background-color: #499A5A;
+}
+
+.login_left {
+    width: 67%;
+    background-color: #111111d6;
+    padding: 1px 9px 8px 18px;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+
+.login_left h1 {
+    font-size: 26px;
+    color: white;
+    padding: 15px 0px 3px;
+    font-weight: 700;
+}
+
+.login_left p {
+    font-size: 13px;
+    color: white;
+    width: 95%;
+    padding: 15px 0px;
+}
+
+
+.login_content h3 {
+    height: 1px;
+    width: 80%;
+    margin-bottom: 44px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form_item label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+
+.form_item input {
+    font-size: 14px;
+    font-weight: 500;
+    border: 1.5px solid #7c7777;
+    border-radius: 10px;
+    padding: 16px 18px;
+    width: 99%;
+}
+
+.form_item1{
+    position: relative;
+}
+
+.hide_password {
+    position: absolute;
+    top: 35px;
+    right: 33px;
+}
+
+.hide_password img {
+    height: 25px;
+    width: 25px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.remember {
+    display: flex;
+    padding: 12px 0px 9px;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.login_right button{
+    padding: 20px 40px;
+    background-color: white;
+    border: none;
+}
+
+.login_right a{
+    text-decoration: none;
+    color: #499A5A;
+    font-weight: 500;
+}
+
+#rem {
+    height: 20px;
+    width: 20px;
+    background-color: inherit;
+    border: 1.7px solid white;
+}
+
+.login_right button {
+    padding: 12px 55px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.register_right {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+}
+
+.forgot{
+    color: #F8CB2E;
+}
+
+.login_text p {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 12px 10px 8px 0px;
+}
+
+.register_button ,.pay_guest{ 
+    padding: 12px 20px;
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 8px;
+}
+
+.register_button a,.pay_guest a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+
+.option_section {
+    position: absolute;
+    left: 50%;
+}
+
+
+.menu_footer {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    padding: 18px;
+    align-items: center;
+    background-color: #292929f2;
+    color: white;
+    bottom: 0;
+}
+
+.error{
+    font-size: 10px;
+    color: #F8CB2E;
+}
+
+.error_password{
+    display: flex;
+    align-items: center;
+}
+
+.error_password img{
+    height: 18px;
+    padding-top: 3px;
+    width: 18px;
+}
+
+/* forgotpassword */
+.forgot_password {
+    width: 100%;
+    padding: 3.5% 20%;
+}
+
+.form_item3 {
+    padding: 4% 0%;
+}
+
+.form_item3 label{
+    text-align: start;
+}
+
+.forgot_password_container {
+    width: 100%;
+    border: 1.5px solid #D0D5DD;
+    border-radius: 18px;
+    text-align: center;
+    padding: 8% 6% 5%;
+}
+
+.forgot_password_container h2 {
+    color: black;
+    font-size: 26px;
+    padding: 0.5% 0%;
+}
+
+.forgot_password_container p{
+    color: #645D5D;
+    font-size: 16px;
+}
+
+.phone_email{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.forgot_pass_button button {
+    width: 98%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #499A5A;
+    margin-bottom: 3.5%;
+}
+
+.forgot_pass_button a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form_item3 label {
+    text-align: start;
+    padding-left: 6px;
+}
+
+.back_button{
+    width: 98%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: inherit;
+    border: none;
+}
+
+.back_button a{
+    text-decoration: none;
+    color: #F8CB2E;
+}
+
+
+
+
+/* forgotpassword */
+
+/* newpassword */
+
+.form3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.new_password {
+    width: 100%;
+    padding: 1.25% 25%;
+}
+
+.new_password_container {
+    width: 100%;
+    padding: 3% 6% 0%;
+    border-radius: 18px;
+    border: 1.5px solid #D0D5DD;
+}
+
+.new_password_container h2 {
+    color: black;
+    font-size: 26px;
+    padding: 0.5% 0%;
+}
+
+.new_password_container p{
+    color: #645D5D;
+    font-size: 16px;
+}
+
+.submit_newpassword button {
+    width: 99%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #499A5A;
+    margin-bottom: -0.5%;
+    margin-top: -1%;
+}
+
+.submit_newpassword a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.go_back a{
+    text-decoration: none;
+    color: #F8CB2E;
+}
+
+.remember1 {
+    display: flex;
+    padding: 12px 0px 25px;
+    font-size: 14px;
+    gap: 6%;
+}
+
+.form_item4 {
+    margin-bottom: 2%;
+}
+
+.form_item4 label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 7px;
+    padding-top: 10px;
+}
+
+.error_password_match{
+    display: flex;
+    align-items: center;
+}
+
+.error_password_match img {
+    padding-top: 4px;
+}
+
+.error_password_match{
+    font-size: 12px;
+    color: #F8CB2E;
+}
+
+.form_item4{
+    position: relative;
+
+}
+
+.hide_password1 {
+    position: absolute;
+    top: 46px;
+    right: 25px;
+}
+
+.hide_password1 img {
+   height: 25px;
+   width: 25px;
+}
+
+.username_error,.error_password{
+    visibility: hidden;
+}
+
+
+
+
+/* newpassword */
+
+@media screen and (max-width:950px ){
+    .login_left h1 {
+        font-size: 18px;
+        color: white;
+        padding: 8px 0px 3px;
+        font-weight: 700;
+    }
+
+    .login_left {
+        width: 92%;
+        background-color: #111111d6;
+        padding: 6px 9px 10px 18px;
+        position: absolute;
+        bottom: 6%;
+        left: 4%;
+    }
+
+    .buttons_right {
+        position: absolute;
+        right: 1%;
+        top: 10%;
+    }
+
+    .login_left p {
+        font-size: 12px;
+        color: white;
+        width: 95%;
+        padding: 3px 0px;
+    }
+
+    .login_content h3 {
+        height: 1px;
+        width: 100%;
+        margin-bottom: 44px;
+        font-size: 16px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .hide_password img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hide_password {
+        position: absolute;
+        top: 34px;
+        right: 23px;
+    }
+
+    #rem {
+        height: 15px;
+        width: 15px;
+        background-color: inherit;
+        border: 1.7px solid white;
+    }
+
+    .login_content {
+        padding: 30px 50px 4px;
+        width: 55%;
+        background-color: #499A5A;
+    }
+
+    .remember {
+        padding: 12px 0px 25px;
+        font-size: 12px;
+        justify-content: space-between;
+    }
+
+    .login_right button {
+        padding: 10px 55px;
+
+        border-radius: 8px;
+    }
+
+    .login_right a {
+        font-size: 12px;
+    }
+
+
+    .form_item input {
+        font-size: 12px;
+        padding: 12px 18px;
+        width: 99%;
+    }
+
+    .login_button a {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .login_text p {
+        font-weight: 600;
+        font-size: 16px;
+        padding: 10px 10px 15px 0px;
+    }
+
+    .register_button a, .pay_guest a {
+        font-size: 12px;
+        font-weight: 550;
+    }
+
+    .register_button, .pay_guest {
+        padding: 9px 20px;
+    }
+
+    .menu_footer {
+        padding: 18px;
+        font-size: 14px;
+    }
+    
+}
+
+@media screen  and (max-width:650px){
+    .login_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login_image {
+        width: 100%;
+        height: 160px;
+        position: relative;
+    }
+
+    .login_content {
+        padding: 13px 48px 4px;
+        width: 100%;
+        background-color: #499A5A;
+    }
+    .login_content h3 {
+        height: 1px;
+        width: 60%;
+        margin-bottom: 16px;
+        font-size: 14px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .remember {
+        padding: 12px 0px 10px;
+        font-size: 12px;
+        justify-content: space-between;
+    }
+
+    .login_right button {
+        padding: 8px 50px;
+        border-radius: 5px;
+    }
+
+    .login_left p {
+        font-size: 12px;
+        color: white;
+        width: 68%;
+        padding: 3px 0px;
+    }
+
+    .register_button, .pay_guest {
+        padding: 9px 5px;
+        width: 37%;
+    }
+
+    .login_text p {
+        font-weight: 600;
+        font-size: 14px;
+        padding: 10px 10px 15px 0px;
+    }
+
+    .option_section {
+        display: flex;
+        position: unset;
+        gap: 15px;
+        padding-left: 47px;
+    }
+
+    .register_right {
+        display: flex;
+        gap: 40px;
+        width: 100%;
+        height: 41px;
+        margin-top: 10px;
+    }
+    
+}
+
+@media screen  and (max-width:550px){
+    .buttons_right{
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 25%;
+        right: 4%;
+    }
+
+    .hera_logo p {
+        font-size: 9.4px;
+        font-weight: 550;
+        padding-bottom: 3px;
+        color: white;
+    }
+
+    .hera_logo img {
+        margin-top: 6px;
+        margin-bottom: -4px;
+        height: 17px;
+    }
+
+    .login_image {
+        width: 100%;
+        height: 200px;
+        position: relative;
+    }
+
+    .login_left {
+        width: 63%;
+        background-color: #111111d6;
+        padding: 6px 9px 10px 18px;
+        position: absolute;
+        bottom: 6%;
+        left: 4%;
+    }
+
+    .login_left h1 {
+        font-size: 16px;
+        color: white;
+        padding: 8px 0px 3px;
+        font-weight: 700;
+    }
+
+    .login_left p {
+        font-size: 10px;
+        color: white;
+        width: 90%;
+        padding: 3px 0px;
+    }
+
+    .login_content h3 {
+        height: 1px;
+        width: 60%;
+        margin-bottom: 14px;
+        font-size: 14px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .remember {
+        padding: 10px 0px 10px;
+        font-size: 11px;
+        padding-right: 7px;
+        justify-content: space-between;
+    }
+
+    .login_content {
+        padding: 13px 19px 8px;
+        width: 100%;
+        background-color: #499A5A;
+    }
+
+    .option_section {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        gap: 4px;
+        padding-left: 31px;
+    }
+
+    .login_text p {
+        font-weight: 600;
+        font-size: 14px;
+        padding: 10px 10px 3px 0px;
+    }
+
+    .menu_footer {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .register_button, .pay_guest {
+        padding: 9px 5px;
+        width: 32%;
+    }
+
+    .login_right{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen  and (max-width:500px){
+    .login_content h3 {
+        height: 4px;
+        width: 100%;
+        font-size: 12px;
+        display: block;
+    }
+
+    .hide_password img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .form_item input {
+        font-size: 10px;
+        padding: 12px 18px;
+        width: 99%;
+    }
+
+    .hera_logo {
+        padding-left: 14px;
+    }
+
+    .login_left {
+        width: 92%;
+        background-color: #111111d6;
+        padding: 6px 9px 10px 18px;
+        position: absolute;
+        bottom: 6%;
+        left: 4%;
+    }
+
+    .login_image {
+        width: 100%;
+        height: 191px;
+        position: relative;
+    }
+
+    .login_content {
+        padding: 13px 18px 10px;
+        width: 100%;
+        background-color: #499A5A;
+    }
+
+    .remember {
+        padding: 5px 0px 10px;
+        font-size: 9px;
+        padding-right: 7px;
+        justify-content: space-between;
+    }
+
+    .checkbox {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+
+    #rem {
+        height: 13px;
+        width: 13px;
+        background-color: inherit;
+        border: 1.7px solid white;
+    }
+
+    .form_item input {
+        font-size: 10px;
+        padding: 11px 12px;
+        width: 99%;
+    }
+
+    .login_right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .login_button a {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .login_right button {
+        padding: 8px 45px;
+        border-radius: 5px;
+    }
+
+    .register_button a, .pay_guest a {
+        font-size: 9.5px;
+        font-weight: 550;
+    }
+
+    .register_button, .pay_guest {
+        padding: 8px 5px;
+        width: 50%;
+        height: 33px;
+    }
+
+    .login_text p {
+        font-weight: 600;
+        font-size: 13px;
+        padding: 10px 10px 3px 0px;
+    }
+
+    .option_section {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        gap: 4px;
+        padding-left: 23px;
+        padding-right: 19px;
+    }
+
+    .menu_footer {
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    .menu_footer {
+        position: absolute;
+        bottom: 0px;
+    }
+
+}
+
+@media screen  and (max-width:1000px){
+    .new_password_container h2 {
+        color: black;
+        font-size: 20px;
+        padding: 0.5% 0%;
+    }
+
+    .new_password_container p {
+        color: #645D5D;
+        font-size: 13px;
+    }
+
+    .form_item input {
+        font-size: 12px;
+        padding: 12px 18px;
+    }
+
+    .submit_newpassword a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .form_item4 label {
+        font-size: 12px;
+    }
+
+    .hide_password1 img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .hide_password1 {
+        position: absolute;
+        top: 41px;
+        right: 25px;
+    }
+
+    #rem{
+        font-size: 10px;
+    }
+    
+    
+}
+
+@media screen  and (max-width:800px){
+    .new_password {
+        width: 100%;
+        padding: 6.25% 25%;
+    }
+}
+
+@media screen  and (max-width:700px){
+    .new_password {
+        width: 100%;
+        padding: 6.25% 25%;
+    }
+
+    .new_password_container h2 {
+        color: black;
+        font-size: 16px;
+        padding: 0.5% 0%;
+    }
+
+    .new_password_container p {
+        color: #645D5D;
+        font-size: 11px;
+    }
+
+    .error_password_match {
+        font-size: 10px;
+        color: #F8CB2E;
+    }
+
+    .form_item input {
+        font-size: 10px;
+        padding: 12px 18px;
+    }
+
+    .submit_newpassword a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .submit_newpassword button {
+        width: 99%;
+        padding: 9px;
+    }
+
+    #rem4{
+        font-size: 10px;
+    }
+
+    .go_back a {
+        text-decoration: none;
+        color: #F8CB2E;
+        font-size: 11px;
+    }
+
+    .new_password {
+        width: 100%;
+        padding: 6.25% 18%;
+    }
+}
+
+@media screen  and (max-width:550px){
+    .error_password_match img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .new_password {
+        width: 100%;
+        padding: 14% 14%;
+    }
+
+    .hide_password1 img {
+        height: 15px;
+        width: 15px;
+    }
+   
+}
+
+@media screen  and (max-width:400px){
+    .new_password {
+        width: 100%;
+        padding: 28% 14%;
+    }
+
+    .new_password {
+        width: 100%;
+        padding: 28% 10%;
+    }
+
+}
+
+@media screen  and (max-width:900px){
+    .forgot_password_container h2 {
+        color: black;
+        font-size: 20px;
+        padding: 0.5% 0%;
+    }
+
+    .forgot_password_container p {
+        color: #645D5D;
+        font-size: 13px;
+    }
+
+    .forgot_pass_button a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .forgot_password_container {
+        padding: 5% 6% 3%;
+    }
+
+    .forgot_password {
+        width: 100%;
+        padding: 38.4% 20%;
+    }
+}
+
+@media screen  and (max-width:700px){
+    .forgot_password {
+        width: 100%;
+        padding: 10.3% 14%;
+    }
+
+    .forgot_password_container p {
+        color: #645D5D;
+        font-size: 12px;
+    }
+}
+
+@media screen  and (max-width:550px){
+    .forgot_password_container {
+        padding: 5% 3% 3%;
+    }
+
+    .forgot_password {
+        width: 100%;
+        padding: 16.3% 12%;
+    }
+
+}
+
+@media screen  and (max-width:400px){
+    .forgot_password {
+        width: 100%;
+        padding: 30.3% 8%;
+    }
+    
+
+}
+
+
+
+
+/* @media screen and (max-height: 650px) {
+    .menu_footer {
+        position: unset;
+        margin-top: 10%;
+    }
+} */
+
+
+/* JAVASCRIPT */
+.login_container, .option_section{
+    display: noe;
+}
+
+.forgot_password{
+    display: none;
+}
+
+.new_password{
+    display: none;
+}
+
+
+
+/* JAVASCRIPT */

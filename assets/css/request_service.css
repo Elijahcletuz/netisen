@@ -1,0 +1,1088 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.request_service {
+    padding: 60px 20px 20px 70px;
+}
+
+.request_service h2 {
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 11px;
+}
+
+.request_service span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.request_service p {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 34px 0px 0px 0px;
+    width: 84%;
+}
+
+form {
+    border: 1.5px solid #7c7777;
+    padding: 65px 47px 20px 49px;
+    border-radius: 14px;
+    margin: 0px 61px 0px 70px;
+}
+
+form h4 {
+    font-size: 16px;
+    padding: 26px 0px 18px 0px;
+}
+
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 42px;
+}
+
+.form_item1{
+    width: 50%;
+}
+
+.form_item label {
+    display: block;
+    font-weight: 700;
+    font-size: 13px;
+    padding-bottom: 7px;
+}
+
+
+.form_item1 input {
+    width: 83%;
+}
+
+.form_line{
+    width: 100%;
+}
+
+.form_line img{
+    width: 100%;
+}
+
+
+.form_item1 input, .form_item2 input {
+    font-size: 14px;
+    font-weight: 500;
+    border: 1.5px solid #7c7777;
+    border-radius: 10px;
+    padding: 16px 18px;
+}
+
+.select_items{
+    margin-top: 17px;
+    display: none;
+}
+
+
+select{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1.5px solid #7c7777;
+    border-radius: 10px;
+    padding: 13px 18px;
+    appearance: none;
+}
+.form_item2 input {
+    width: 91.5%;
+}
+
+.form_item2{
+    width: 100%;
+}
+
+input{
+    accent-color: green;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+.input {
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.Period{
+    display: none;
+}
+
+.terms_and_condition {
+    padding: 18px 0px 22px 0px;
+    font-size: 13.7px;
+    display: flex;
+    gap: 10px;
+}
+
+.terms_and_condition input {
+    width: 17px;
+}
+
+.terms_and_condition label {
+    color: #7C7C7C;
+    font-weight: 600;
+}
+
+.terms_and_condition span{
+    color: #499A5A;
+    font-weight: 700;
+}
+
+form button {
+    text-align: center;
+    width: 28%;
+    font-weight: 600;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: #499A5A;
+    padding: 14px 0px;
+    border-radius: 5px;
+    margin: 17px 0px;
+}
+
+.select_item {
+    margin-top: 20px;
+}
+
+.select_item h3 {
+    width: 77px;
+    font-size: 13px;
+}
+
+.select_item label {
+    font-size: 12px;
+    padding-right: 27px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.select_item1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.select_item input {
+    margin-right: 6px;
+}
+
+.service_tip {
+    display: flex;
+    width: 100%;
+    padding: 45px 0px 45px 65px;
+}
+
+.service_tip_left {
+    width: 32%;
+    text-align: center;
+    border-radius: 18px 0px 0px 18px;
+    padding: 44px 32px;
+    background-color: #f7fefa;
+}
+
+.service_tip_left h2 {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.service_tip_left p {
+    font-size: 16px;
+    color: black;
+    font-weight: 450;
+}
+
+.service_tip_left span {
+    padding-right: 5px;
+}
+
+
+.service_tip_left li {
+    list-style-type: none;
+    font-size: 17px;
+    color: #499A5A;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.service_tip_right {
+    width: 63%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 0px 18px 18px 0px;
+    background-color: #f7fefa;
+}
+
+.service_tip_right img {
+    width: 97%;
+    height: 414px;
+}
+
+
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hera_footer {
+    width: 45%;
+    padding: 109px 30px 90px 82px;
+    font-size: 48px;
+    background-color: #000000;
+}
+
+.hera_footer p {
+    width: 61%;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    padding: 2% 0% 3% 0%;
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+.hera_footer h1 {
+    font-size: 23px;
+    color: white;
+}
+
+.footer_items h2 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer_items {
+    display: flex;
+    width: 55%;
+    gap: 29px;
+    padding-top: 55px;
+    color: white;
+    background-color: #000000;
+}
+
+.footer_items >div{
+    width: 33.3%;
+}
+
+.footer_items li{
+    list-style-type: none;
+
+}
+
+.footer-list li {
+    margin: 7.5% 0%;
+}
+
+.footer_items a {
+    text-decoration: none;
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+
+.hera_socials{
+    display: flex;
+    position: relative;
+    gap: 2%;
+    padding: 1% 0%;
+    background-color: #111111;
+    color: white;
+    width: 100%;
+}
+
+.connect_phone{
+    background-color: #1b1a1a;
+    display: flex;
+    color: white;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 13px 0px;
+}
+
+.connect_phone_left {
+    display: flex;
+    padding-left: 80px;
+    align-items: center;
+}
+
+.x{
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.connect_phone_right {
+    display: flex;
+    position: absolute;
+    right: 59px;
+}
+
+.handle_image{
+    scale: 0.8;
+}
+
+.connect_phone_right p {
+    padding-top: 3px;
+    padding-left: 9px;
+}
+
+.connect_phone_right a{
+    text-decoration: none;
+    color: white;
+}
+
+.connect_phone_right a:hover{
+    color: rgb(104, 110, 99);
+    font-weight: 500;
+}
+
+.hera_socials h3{
+    padding: 0% 5%;
+    font-size: 1.3rem;
+}
+
+.hera_num{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right:5%;
+}
+
+.footer-list li:hover a {
+    color: green;
+    font-size: 14.5px;
+    padding-left: 1px;
+}
+
+@media screen and (min-width:771px ) and (max-width:1000px ){
+    .forms {
+        row-gap: 28px;
+    }
+
+    form h4 {
+        font-size: 15px;
+    }
+
+    .select_item label {
+        font-size: 11px;
+        padding-right: 10px;
+    }
+
+    .select_item h3 {
+        width: 59px;
+        font-size: 12px;
+    }
+
+    .form_item1 input, .form_item2 input {
+        font-size: 13px;
+        padding: 14px 19px;
+    }
+
+    .form_item1 input {
+        width: 88%;
+    }
+
+    .form_item2 input {
+    width: 94%;
+    }
+    
+    .select_item input {
+        margin-right: 2px;
+    }
+
+    .terms_and_condition {
+        padding: 4px 0px 22px 0px;
+        font-size: 12.7px;
+        gap: 4px;
+    }
+
+    form button {
+        font-size: 14px;
+        padding: 12px 0px;
+        margin: 6px 0px;
+    }
+
+    .service_tip_left {
+        width: 40%;
+        padding: 3px 6px;
+    }
+
+    .service_tip_left li {
+        font-size: 15px;
+        margin-top: 33px;
+    }
+
+    .service_tip_left li {
+        font-size: 15px;
+        margin-top: 26px;
+        padding: 0px 21px;
+    }
+
+    .service_tip_left h2 {
+        font-size: 19px;
+        padding-top: 27px;
+    }
+
+    .service_tip_left p {
+        font-size: 13px;
+    }
+
+    .service_tip_right {
+        width: 53%;
+        padding-bottom: 17px;
+        padding-top: 23px;
+    }
+    
+    .service_tip_right img {
+        width: 95%;
+        height: 298px;
+    }
+
+    .Period{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:771px ){ 
+    .request_service h2 {
+        font-size: 23px;
+        font-weight: 600;
+        padding-bottom: 8px;
+    }
+
+    .request_service p {
+        font-size: 13px;
+        padding: 21px 0px 0px 0px;
+        width: 95%;
+    }
+
+    .forms {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    form {
+        border: 1.3px solid #7c7777;
+        padding: 22px 47px 10px 29px;
+        border-radius: 14px;
+        margin: 0px 38px 0px 42px;
+    }
+
+    form h4 {
+        font-size: 16px;
+        padding: 13px 0px 13px 0px;
+    }
+
+    .form_item label {
+        display: block;
+        padding-bottom: 4px;
+        font-weight: 600;
+    }
+    .select_items{
+        display: block;
+    }
+
+    .select_item2{
+        display: none;
+    }
+
+    .form_item1 input, .form_item2 input {
+        font-size: 13px;
+        font-weight: 400;
+        border: 1.4px solid #7c7777;
+        border-radius: 8px;
+        padding: 14px 18px;
+    }
+
+    .form_item1 {
+        width: 100%;
+    }
+
+    .form_item1 input, 
+    .form_item2 input {
+        width: 100%;
+    }
+
+    form button {
+        font-size: 13px;
+    }
+
+    .terms_and_condition {
+        padding: 4px 0px 0px 0px;
+        font-size: 12.7px;
+        gap: 9px;
+    }
+
+    .service_tip {
+        padding: 25px 36px 25px 42px;
+        flex-direction: column-reverse;
+    }
+
+    .service_tip_right {
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .service_tip_left li {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .service_tip_left h2 {
+        font-size: 20px;
+    }
+
+    .service_tip_left p {
+        font-size: 13px;
+    }
+
+    .service_tip_right img {
+        height: auto;
+    }
+
+    .service_tip_left {
+        width: 100%;
+        border-radius: 0px 0px 18px 18px;
+        padding: 26px 58px;
+    }
+
+    .Period{
+        display: none;
+    }
+
+    .hera_footer {
+        width: 100%;
+        order: 2;
+        padding: 0px 30px 8px 22px;
+    }
+
+    .hera_footer p {
+        width: 61%;
+        font-size: 13px;
+    }
+
+    .hera_footer h1 {
+        font-size: 16px;
+    }
+
+    .hera_footer_logo img {
+        width: 83px;
+        height: 50px;
+    }
+
+    .hera_footer_logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .connect_phone_left {
+        display: flex;
+        padding-left: 22px;
+        align-items: center;
+    }
+
+    .connect_phone_left h3 {
+        font-size: 15px;
+    }
+
+    .handle_image {
+        scale: 0.65;
+    }
+    
+    .x {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .connect_phone_right a {
+        font-size: 15px;
+    }
+
+    .footer_items {
+        width: 100%;
+        padding: 4% 0%;
+        line-height: 1.8;
+        padding-left: 25px;
+    }
+
+
+    .footer_items a {
+        font-size: 12px;
+    }
+
+    .footer-list li:hover a {
+        font-size: 12.5px;
+    }
+
+
+    .footer_items h2 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .connect_phone {
+        padding: 6px 0px;
+        order: 3;
+    }
+
+    .footer-list li {
+        margin: 0px 0px;
+    }
+}
+
+@media screen and (min-width:170px) and (max-width: 530px) {
+
+    .request_service {
+        padding: 60px 44px 20px 43px;
+    }
+
+    .request_service h2 {
+        font-size: 19px;
+    }
+
+    .request_service span {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .request_service p {
+        font-size: 13px;
+        padding: 16px 0px 0px 0px;
+    }
+
+    form {
+        border: 1.3px solid #7c7777;
+        padding: 7px 26px 10px 15px;
+        border-radius: 14px;
+        margin: 0px 22px 0px 22px;
+    }
+
+    .select_item label {
+        font-size: 10px;
+        padding-right: 8px;
+        font-weight: 700;
+        padding-top: 7px;
+    }
+
+    .select_item h3 {
+        width: 47px;
+        font-size: 11px;
+    }
+
+    #sel-services{
+        font-size: 10px;
+    }
+
+    .form_item1 input, .form_item2 input {
+        font-size: 14px;
+        font-weight: 400;
+        border: 1.4px solid #7c7777;
+        border-radius: 8px;
+        padding: 8px 10px;
+    }
+
+    select {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        border: 1.4px solid #7c7777;
+        border-radius: 8px;
+        padding: 8px 10px;
+    }
+
+    .terms_and_condition label {
+        font-weight: 400;
+    }
+
+    .terms_and_condition span {
+        font-weight: 500;
+    }
+
+    .terms_and_condition {
+        padding: 1px 0px 0px 0px;
+        font-size: 9.7px;
+        gap: 6px;
+    }
+
+    form button {
+        font-size: 11px;
+        padding: 8px 0px;
+        width: 40%;
+        margin: 3% 29%;
+        background-color: #499A5A;
+    }
+
+    .service_tip {
+        padding: 25px 25px 25px 23px;
+        flex-direction: column-reverse;
+    }
+
+    .hera_footer {
+        width: 100%;
+        order: 2;
+        padding: 8px 30px 0px 22px;
+    }
+
+    .hera_footer p {
+        width: 71%;
+        font-size: 13px;
+    }
+
+    .hera_footer h1 {
+        font-size: 16px;
+    }
+
+    .hera_footer_logo img {
+        width: 83px;
+        height: 50px;
+    }
+
+    .hera_footer_logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .connect_phone_left {
+        display: flex;
+        padding-left: 5%;
+        align-items: center;
+    }
+
+    .connect_phone_left h3 {
+        font-size: 15px;
+    }
+
+    .handle_image {
+        scale: 0.65;
+    }
+    
+    .x {
+        padding-left: 22px;
+        padding-right: 1px;
+    }
+
+    .connect_phone_right a {
+        font-size: 15px;
+    }
+
+    .footer_items >div {
+        width: 100%;
+    }
+
+    .footer_items {
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        padding: 4% 0%;
+        line-height: 1.8;
+        padding-left: 25px;
+    }
+
+    .footer_phone_number{
+        display: none;
+    }
+
+    .connect_phone_right {
+        left: 233px;
+    }
+
+    /* .hera_footer{
+        display: non;
+    } */
+
+    .footer_items a {
+        font-size: 12px;
+    }
+
+    .footer-list li:hover a {
+        font-size: 12.5px;
+    }
+
+
+    .footer_items h2 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .connect_phone {
+        padding: 6px 0px;
+        order: 3;
+    }
+
+    .faq{
+        order: 2;
+    }
+
+    .our_service_footer{
+        order: 1;
+    }
+
+    .more{
+        order: 3;
+    }
+
+    .footer-list li {
+        margin: 0px 0px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1090px) {
+    .footer_items >div {
+        width: 35.3%;
+        line-height: 2;
+    }
+
+    .footer_items {
+        display: flex;
+        width: 60%;
+        gap: 1px;
+        padding-top: 55px;
+        color: white;
+        background-color: #000000;
+    }
+
+    .hera_footer {
+        width: 40%;
+        padding: 109px 30px 90px 32px;
+        font-size: 48px;
+        background-color: #000000;
+    }
+
+    .hera_footer p {
+        width: 79%;
+        font-size: 13px;
+    }
+
+    .footer-list li{
+        margin: 1px;
+    }
+}
+
+@media screen and (max-width:169px){
+    .request_service {
+        padding: 10px;
+    }
+
+    .request_service h2 {
+        font-size: 9px;
+        padding-bottom: 2px;
+    }
+
+    .request_service span {
+        font-size: 9px;
+    }
+
+    .request_service p {
+        font-size: 8.5px;
+        padding: 5px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .forms {
+        flex-direction: column;
+        row-gap: 7px;
+    }
+
+    form {
+        border: 1.5px solid #7c7777;
+        padding: 0px 7px 5px 5px;
+        border-radius: 4px;
+        margin: 0px 8px 0px 8px;
+    }
+
+    form h4 {
+        font-size: 7px;
+        padding: 1px;
+    }
+
+    .form_item label {
+        font-size: 7px;
+        padding-bottom: 0px;
+    }
+
+    .select_items {
+        margin-top: 6px;
+        display: none;
+    }
+
+    .form_item1 input, .form_item2 input {
+        font-size: 9px;
+        font-weight: 400;
+        border: 1.4px solid #7c7777;
+        border-radius: 5px;
+        padding: 2px 10px;
+    }
+
+    .Period{
+        display: block;
+    }
+
+    .select_item1{
+        display: none;
+    }
+
+    select {
+        font-size: 10px;
+        font-weight: 400;
+        border: 1.4px solid #7c7777;
+        border-radius: 5px;
+        padding: 2px 10px;
+    }
+
+    .terms_and_condition label {
+        color: #7C7C7C;
+        font-weight: 600;
+        font-size: 7px;
+    }
+
+    form button {
+        font-size: 9px;
+    }
+
+    form button {
+        text-align: center;
+        width: 100%;
+        font-weight: 600;
+        border: none;
+        color: white;
+        font-size: 7px;
+        background-color: #499A5A;
+        padding: 7px 0px;
+        border-radius: 5px;
+        margin: 2px 0px;
+    }
+
+    .service_tip_left {
+        width: 100%;
+        border-radius: 0px 0px 8px 8px;
+        padding: 6px 5px;
+    }
+
+    .service_tip {
+        padding: 5px 8px 5px 8px;
+        flex-direction: column-reverse;
+    }
+
+    .service_tip_left h2 {
+        font-size: 13px;
+    }
+
+    .service_tip_left li {
+        font-size: 10px;
+        margin-top: 11px;
+    }
+
+    .service_tip_left p {
+        font-size: 9.5px;
+    }
+
+    .footer_items {
+        width: 100%;
+        padding: 7% 0%;
+        line-height: 1.2;
+        padding-left: 10px;
+        flex-direction: column;
+    }
+
+    .footer_items >div {
+        width: 100%;
+    }
+
+    .footer_items h2 {
+        font-size: 12px;
+    }
+
+    .footer_items a {
+        font-size: 9.5px;
+    }
+
+    .footer-list li:hover a {
+        color: green;
+        font-size: 10.4px;
+        padding-left: 0.7px;
+    }
+
+    .hera_footer {
+        width: 100%;
+        order: 2;
+        padding: 0px 7px 8px 7px;
+    }
+
+    .hera_footer h1 {
+        font-size: 12px;
+    }
+
+    .hera_footer p {
+        width: 100%;
+        padding-top: 4px;
+        font-size: 10px;
+    }
+
+    .hera_footer_logo {
+        height: 36px;
+    }
+
+    .hera_footer_logo img {
+        width: 59px;
+        height: 44px;
+    }
+
+    .connect_phone {
+        padding: 6px 0px;
+        background-color: #1b1a1a;
+        display: block;
+    }
+
+    .connect_phone_left {
+        padding-left: 4px;
+        align-items: center;
+    }
+
+    .connect_phone_right {
+        position: absolute;
+        bottom: 5px;
+        right: 1px;
+    }
+
+    .connect_phone_right p {
+        display: none;
+    }
+
+    .connect_phone_left h3 {
+        font-size: 11px;
+    }
+
+    .x {
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 0px;
+    }
+
+    .handle_image {
+        scale: 0.4;
+    }
+}
+
+    
+
+
+
+

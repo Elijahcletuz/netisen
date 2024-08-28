@@ -1,0 +1,1676 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+  .houses_pic{
+    margin-bottom: 60px;
+    margin-top: 4.5%;
+  }
+  .houses{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+  }
+  .green_box {
+    position: relative;
+    background-color: rgba(73, 154, 90, 0.95);
+    width: 600px;
+    height: 300px;
+    left: 100px;
+    opacity: 0.9;
+    color: white;
+    padding: 59px 20px 20px 20px;
+}
+  .line_one{
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  .line_two {
+    margin-bottom: 35px;
+    margin-top: 52px;
+    font-weight: 800;
+    font-size: 44px;
+    color: #FFFFFF;
+}
+  .request_btn{
+    padding: 10px 40px;
+    background-color: rgba(73, 154, 90, 0.95);
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: white;
+  }
+  .call_btn {
+    padding: 9px 17px;
+    background-color: white;
+    border: none;
+    width: 36.5%;
+    border-radius: 10px;
+    color: rgba(239, 152, 12, 1);
+}
+  .line_one, .line_three, .rss_right_text {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .service_lists {
+    display: flex;
+    gap: 9px;
+  }
+
+  
+  .flex_both{
+    width: 100%;
+    display: flex;
+  }
+
+  .flex_phone {
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+ 
+}
+
+  .service_lists a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+.service_lists li a:hover {
+  color: rgba(239, 152, 12, 1);
+}
+
+  .service_lists li{
+    list-style-type: none;
+  }
+
+  .service_list a{
+    padding-right: 20px;
+  }
+
+  .call_btn_icon{
+    margin-right: 10px;
+  }
+  .for_your_home,.pick_up,.request_btn_two{
+   color: rgba(73, 154, 90, 0.95);
+  }
+  .rs_bold{
+    color: rgba(17, 17, 17, 1);
+    font-weight: 800;
+    font-size: 40px;
+  }
+  .rs_text{
+    color: rgba(124, 124, 124, 1);
+  }
+  .for_your_home,.rs_bold,.rs_text{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .for_your_home,.rs_text,.request_btn_two{
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .disposal_pic{
+    width: 1fr;
+    height: 400px;
+    margin-right: 30px;
+  }
+  .abc {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+  .request_btn_two{
+    padding: 9px 20px;
+    background-color: white;
+    border: none;
+    border-bottom: solid;
+    border-bottom-color: rgb(185, 185, 185);
+    box-shadow: 0.5px 0.5px 4px rgba(117, 117, 117, 0.8);
+    border-radius: 5px;
+  }
+  .rss_right{
+    width: 1fr;
+    align-items: flex-end;
+    display: flex;
+  }
+  .residential_service_sec {
+    padding: 0px 40px;
+}
+  .pick_up{
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .rss_right_text{
+    color: rgba(124, 124, 124, 1);
+    margin-bottom: 12px;
+  }
+  .timetable{
+    font-size: 10px;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .timetable_two{
+    font-size: 10px;
+    font-weight: 600;
+    display: grid;
+    display: none;
+    grid-template-columns: 1fr 1fr;
+  }
+  .timetable_section{
+    background-color: rgb(236, 235, 235);
+    color: rgba(239, 152, 12, 1);
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(236, 235, 235);
+  }
+  .clock_icon{
+    color: rgba(73, 154, 90, 0.95);
+  }
+  .opening_hours{
+    font-weight: 800;
+    font-size: 16px;
+  }
+  .toggle_icon{
+    color: rgba(239, 152, 12, 1);
+    margin-bottom: 5px;
+  }
+ 
+.booking a {
+    color: white;
+    font-weight: 700;
+    font-size: 23px;
+}
+  .phone_no {
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 9px;
+}
+  .or{
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 9px;
+  }
+  .booking {
+    background-color: rgba(73, 154, 90, 0.95);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+  .booking_three{
+    background-color: rgba(73, 154, 90, 0.95);
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    display: none;
+  }
+  .phone_icon{
+    color: white;
+    font-size: 22px;
+    margin-right: 5px;
+  }
+
+  .rs_text_two{
+    display: none;
+    color: rgba(124, 124, 124, 1);
+    text-align: center;
+  }
+  .booking_two{
+    background-color: rgba(73, 154, 90, 0.95);
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+    width: 100%;
+    display: none;
+    margin-left: 30px;
+  }
+  .phone_icon_two{
+    color: white;
+    font-size: 40px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .phone_no_two{
+    font-size: 28px;
+    font-weight: 500;
+    margin-right: 15px;
+    margin-left: 20px;
+  }
+  .contact_con{
+    display: flex;
+  }
+  .or_con{
+    display: flex;
+  }
+  .booking_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+  }
+
+  .or_two{
+    margin-right: 15px;
+  }
+
+  .recycling_tips {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+
+.recycling_tips li {
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+
+.list{
+  margin-left: 30px;
+}
+.tips {
+    border: 2px solid black;
+    border-radius: 16px;
+    width: 80%;
+    padding: 20px 64px 20px 63px;
+    display: inline-block;
+    text-align: start;
+    background-color: white;
+}
+
+
+.tips h1{
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+.tips p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.box {
+    width: 100%;
+ 
+    position: absolute;
+    top: 20px;
+    z-index: -1;
+}
+
+.white_background {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+.green_background {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(73, 154, 90);
+}
+
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3%;
+}
+
+
+
+.hera_footer {
+    width: 45%;
+    padding: 109px 30px 90px 82px;
+    font-size: 48px;
+    background-color: #000000;
+}
+
+.hera_footer p {
+    width: 61%;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    padding: 2% 0% 3% 0%;
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+.hera_footer h1 {
+    font-size: 23px;
+    color: white;
+}
+
+.footer_items h2 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer_items {
+    display: flex;
+    width: 55%;
+    gap: 29px;
+    padding-top: 55px;
+    color: white;
+    background-color: #000000;
+}
+
+.footer_items >div{
+    width: 33.3%;
+}
+
+.footer_items li{
+    list-style-type: none;
+
+}
+
+.footer-list li {
+    margin: 7.5% 0%;
+}
+
+.footer_items a {
+    text-decoration: none;
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+
+.hera_socials{
+    display: flex;
+    position: relative;
+    gap: 2%;
+    padding: 1% 0%;
+    background-color: #111111;
+    color: white;
+    width: 100%;
+}
+
+.connect_phone{
+    background-color: #1b1a1a;
+    display: flex;
+    color: white;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 13px 0px;
+}
+
+.connect_phone_left {
+    display: flex;
+    padding-left: 80px;
+    align-items: center;
+}
+
+.x{
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.connect_phone_right {
+    display: flex;
+    position: absolute;
+    right: 59px;
+}
+
+.handle_image{
+    scale: 0.8;
+}
+
+.connect_phone_right p {
+    padding-top: 3px;
+    padding-left: 9px;
+}
+
+.connect_phone_right a{
+    text-decoration: none;
+    color: white;
+}
+
+.connect_phone_right a:hover{
+    color: rgb(104, 110, 99);
+    font-weight: 500;
+}
+
+.hera_socials h3{
+    padding: 0% 5%;
+    font-size: 1.3rem;
+}
+
+.hera_num{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right:5%;
+}
+
+.footer-list li:hover a {
+    color: green;
+    font-size: 14.5px;
+    padding-left: 1px;
+}
+
+@media screen and (min-width:531px) and (max-width:771px ){ 
+    .hera_footer {
+        width: 100%;
+        order: 2;
+        padding: 0px 30px 8px 22px;
+    }
+
+    .hera_footer p {
+        width: 61%;
+        font-size: 13px;
+    }
+
+    .hera_footer h1 {
+        font-size: 16px;
+    }
+
+    .hera_footer_logo img {
+        width: 83px;
+        height: 50px;
+    }
+
+    .hera_footer_logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .connect_phone_left {
+        display: flex;
+        padding-left: 22px;
+        align-items: center;
+    }
+
+    .connect_phone_left h3 {
+        font-size: 15px;
+    }
+
+    .handle_image {
+        scale: 0.65;
+    }
+    
+    .x {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .connect_phone_right a {
+        font-size: 15px;
+    }
+
+    .footer_items {
+        width: 100%;
+        padding: 4% 0%;
+        line-height: 1.8;
+        padding-left: 25px;
+    }
+
+
+    .footer_items a {
+        font-size: 12px;
+    }
+
+    .footer-list li:hover a {
+        font-size: 12.5px;
+    }
+
+
+    .footer_items h2 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .connect_phone {
+        padding: 6px 0px;
+        order: 3;
+    }
+}
+
+@media screen and (min-width:100px) and (max-width: 530px)  { 
+    .hera_footer {
+        width: 100%;
+        order: 2;
+        padding: 8px 30px 0px 22px;
+    }
+
+
+    .hera_footer p {
+        width: 71%;
+        font-size: 13px;
+    }
+
+    .hera_footer h1 {
+        font-size: 16px;
+    }
+
+    .hera_footer_logo img {
+        width: 83px;
+        height: 50px;
+    }
+
+    .hera_footer_logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .connect_phone_left {
+        display: flex;
+        padding-left: 5%;
+        align-items: center;
+    }
+
+    .connect_phone_left h3 {
+        font-size: 15px;
+    }
+
+    .handle_image {
+        scale: 0.65;
+    }
+    
+    .x {
+        padding-left: 22px;
+        padding-right: 1px;
+    }
+
+    .connect_phone_right a {
+        font-size: 15px;
+    }
+
+    .footer_items >div {
+        width: 100%;
+    }
+
+    .footer_items {
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        padding: 4% 0%;
+        line-height: 1.8;
+        padding-left: 25px;
+    }
+
+    .footer_phone_number{
+        display: none;
+    }
+
+    .connect_phone_right {
+        left: 233px;
+    }
+
+    /* .hera_footer{
+        display: non;
+    } */
+
+    .footer_items a {
+        font-size: 12px;
+    }
+
+
+    .footer-list li {
+        margin: 0% 0%;
+    }
+
+    .footer-list li:hover a {
+        font-size: 12.5px;
+    }
+
+
+    .footer_items h2 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .connect_phone {
+        padding: 6px 0px;
+        order: 3;
+    }
+
+    .faq{
+        order: 2;
+    }
+
+    .our_service_footer{
+        order: 1;
+    }
+
+    .more{
+        order: 3;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1090px){
+    .footer_items >div {
+        width: 35.3%;
+        line-height: 2;
+    }
+
+    .footer_items {
+        display: flex;
+        width: 60%;
+        gap: 1px;
+        padding-top: 55px;
+        color: white;
+        background-color: #000000;
+    }
+
+    .hera_footer {
+        width: 40%;
+        padding: 109px 30px 90px 32px;
+        font-size: 48px;
+        background-color: #000000;
+    }
+
+    .hera_footer p {
+        width: 79%;
+        font-size: 13px;
+    }
+    
+    
+
+    .hera_identity img{
+        scale: 0.8;
+    }
+}
+
+
+  
+  
+  @media screen and (max-width:890px) {
+
+    .houses{
+      height: 250px;
+      width: 100%;
+    }
+    .green_box {
+      width: 86%;
+      height: 284px;
+      left: 30px;
+      margin-top: 6%;
+      padding: 35px 20px 20px 20px;
+  }
+    
+    .rs_text_two{
+      display: block;
+      margin-bottom: 30px;
+      color: rgba(124, 124, 124, 1);
+    }
+    .rs_text{
+      display: none;
+    }
+    .rs_bold{
+      font-size: 26px;
+    }
+    .houses_pic{
+      margin-bottom: 30px;
+    }
+    .abc{
+      display: block;
+    }
+    .disposal_pic img{
+        width: 100%;
+    }
+    .disposal_pic {
+        width: 96%;
+        padding-left: 4%;
+        margin-bottom: 30px;
+    }
+    .residential_service_sec{
+      padding: 0;
+    }
+    .rss_right{
+      margin-left: 30px;
+    }
+    .btn_container{
+      display: flex;
+      justify-content: center;
+    }
+    .timetable_section{
+        font-family: inherit;
+    }
+    .timetable{
+      gap: 10px;
+      column-gap: 200px;
+      font-size: 22px;
+    }
+    .opening_hours{
+      margin-bottom: 5px;
+      font-size: 22px;
+    }
+    .rss_right_text{
+      font-size: 22px;
+    }
+    .clock_icon{
+      font-size: 22px;
+    }
+    .booking{
+      display: block;
+    }
+    .booking_two{
+      display: none;
+    }
+
+    .toggle_icon img {
+        height: auto;
+    }
+    .recycling_tips li {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+
+
+    .tips h1 {
+        padding-top: 7px;
+        padding-left: 35px;
+        font-size: 22px;
+    }
+
+    .tips {
+        padding: 20px 35px 20px 38px;
+    }
+    .tips p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .green_background{
+        height: 500px;
+    }
+
+  }
+  @media (max-width:780px) {
+
+
+    .houses{
+      height: 300px;
+      width: 100%;
+    }
+
+    .service_lists {
+      display: flex;
+      gap: 9px;
+      padding-top: 22px;
+      flex-wrap: wrap;
+  }
+
+  .service_lists a {
+    font-size: 12px;
+  }
+  .green_box {
+    width: 86%;
+    margin-top: 6%;
+    height: 300px;
+    left: 40px;
+}
+    .line_one, .line_three{
+        font-size: 14px;
+    }
+    .line_two {
+      margin-bottom: 21px;
+      font-weight: 800;
+      font-size: 29px;
+  }
+
+  .request_btn {
+    padding: 8px 17px;
+  }
+    
+    .rs_text_two{
+      display: block;
+      margin-bottom: 30px;
+      color: rgba(124, 124, 124, 1);
+    }
+    .rs_text{
+      display: none;
+    }
+    .rs_bold{
+      font-size: 26px;
+    }
+    .houses_pic{
+      margin-bottom: 30px;
+    }
+    .abc{
+      display: block;
+    }
+    .disposal_pic img{
+        width: 100%;
+    }
+    .disposal_pic {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .pick_up {
+        font-weight: 700;
+        font-size: 22px;
+        padding: 0px 0px 6px 27px;
+    }
+    .rss_right_text {
+        font-size: 17px;
+    }
+    .request_toggle_icon img{
+        height: 14px;
+    }
+    .residential_service_sec{
+      padding: 0;
+    }
+    .rss_right{
+      margin-left: 30px;
+    }
+    .btn_container{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .timetable{
+      gap: 10px;
+      column-gap: 200px;
+      font-size: 22px;
+    }
+    .opening_hours {
+        margin-bottom: 5px;
+        font-size: 19px;
+    }
+    .timetable, .timetable_two {
+        font-size: 16px;
+    }
+    .request_btn_two {
+        padding: 6px 14px;
+        font-size: 15px;
+    }
+    .clock_icon{
+      font-size: 22px;
+    }
+    .booking{
+      display: none;
+    }
+    .booking_two{
+      display: block;
+    }
+    .booking_two a{
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+    .phone_no_two {
+        font-size: 17px;
+        font-weight: 600;
+        margin-right: 19px;
+        margin-left: 20px;
+    }
+
+    .booking_two {
+        display: block;
+        width: 90%;
+    }
+    
+    .fa-phone:before {
+        content: "\f095";
+        font-size: 34px;
+    }
+
+    .toggle_icon img {
+        height: 2vh;
+    }
+
+    .tips {
+        padding: 12px 34px 5px 33px;
+    }
+
+    .tips p {
+        padding-top: 3px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .tips h1 {
+        padding-top: 4px;
+        padding-left: 26px;
+        font-size: 17px;
+    }
+
+
+
+    .recycling_tips li {
+        font-size: 12.5px;
+        margin-bottom: 9px;
+    }
+
+    .green_background{
+        height: 500px;
+    }
+
+
+  }
+  @media (max-width:550px) {
+    .houses {
+        height: 309px;
+        width: 100%;
+    }
+    .green_box {
+        width: 100%;
+        height: 309px;
+        left: 0px;
+    }
+
+    .line_one {
+        margin-bottom: 28px;
+        margin-top: 20px;
+    }
+
+    .line_two {
+      margin-bottom: 33px;
+      margin-top: 41px;
+      font-weight: 800;
+      font-size: 25px;
+      color: #FFFFFF;
+  }
+
+    .pick_up {
+        font-weight: 700;
+        padding: 0px 0px 0px 15px;
+    }
+   
+    .rs_text_two {
+      display: block;
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 45px;
+      margin-top: 15px;
+      padding: 0px 15px;
+      color: rgba(124, 124, 124, 1);
+  }
+    .rs_text{
+      display: none;
+    }
+
+    .for_your_home, .rs_bold, .rs_text {
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .rs_bold {
+        font-size: 22px;
+    }
+    .houses_pic{
+      margin-bottom: 30px;
+    }
+    .abc{
+      display: block;
+    }
+    .disposal_pic{
+      width: 100%;
+      margin-bottom: 30px;
+      margin-right: 0px;
+    }
+    .residential_service_sec{
+      padding: 0;
+    }
+    .rss_right {
+      margin-left: 20px;
+      padding-right: 6px;
+  }
+    .btn_container{
+      display: flex;
+      justify-content: center;
+    }
+   
+    .timetable{
+      gap: 10px;
+      column-gap: 60px;
+      font-size: 12.5px;
+    }
+
+    .green_background {
+      height: 563px;
+  }
+
+  .timetable_section {
+    padding: 11px 10px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+    .toggle_icon img {
+        height: 10px;
+    }
+    .opening_hours {
+        margin-bottom: 9px;
+        font-size: 17px;
+    }
+    .rss_right_text {
+        line-height: 19px;
+        font-size: 13px;
+    }
+
+    .fa-regular {
+        font-weight: 400;
+        font-size: 19px;
+        padding-left: 7px;
+    }
+
+    .disposal_image{
+        width: 100%;
+    }
+
+    .disposal_image img {
+        height: 261px;
+    }
+
+    .disposal_pic {
+        padding-left: 0px;
+    }
+
+
+
+   
+    .clock_icon{
+      font-size: 22px;
+    }
+    .booking{
+      display: none;
+    }
+    .booking_two{
+      display: block;
+      width: 85%;
+      margin-bottom: 50px;
+    }
+    .tips {
+        width: 90%;
+        padding: 12px 13px 5px 13px;
+    }
+    .tips p {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        font-size: 12.5px;
+    }
+    .pick_up, .timetable_section {
+        font-size: 14px;
+    }
+    .booking_con {
+        padding: 11px;
+    }
+    .phone_no_two,.phone_icon_two,.or_two,a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width:395px) {
+    .booking_con{
+      padding: 20px 5px;
+    }
+    .booking_two{
+      margin-right: 30px;
+    }
+    .phone_no_two{
+      margin-left: 5px;
+    }
+    .timetable {
+      font-size: 9.5px;
+  }
+
+    
+  }
+  @media (max-width:320px) {
+    .timetable{
+      font-size: 12px;
+    }
+    .rss_right_text{
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width:780px) {
+
+    .call_btn {
+      padding: 9px 32px;
+      background-color: white;
+      border: none;
+      width: 96.8%;
+      border-radius: 10px;
+      color: rgba(239, 152, 12, 1);
+  }
+
+
+    .call_btn {
+      padding-top: 8px;
+      padding-bottom: 5px;
+  } 
+  
+  .flex_both {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+}
+  @media (max-width:200px) {
+    .houses,.disposal_pic{
+      object-fit: cover;
+      object-position: center;
+    }
+    .opening_hours,.line_one{
+      font-size: 12px;
+    }
+    .line_two{
+      font-size: 14px;
+    }
+    .request_btn{
+      padding: 10px 10px;
+      left: 0;
+      padding: 10px;
+    }
+    .green_box{
+      left: 0;
+      padding: 10px;
+    }
+    .timetable{
+      column-gap: 10px;
+    }
+    .tips{
+      width: 100%;
+      font-size: 12px;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .rec_tips_title{
+      font-size: 16px;
+    }
+    .rs_bold{
+      font-size: 20px;
+    }
+    .timetable_two{
+      display: block;
+    }
+    .timetable{
+      display: none;
+  }
+    .recycling_tips{
+    padding: 5px;
+  }
+  .booking_two{
+    display: none;
+  }
+  .booking_three{
+    display: block;
+    font-size: 12px;
+  }
+  .pick_up{
+    font-size: 16px;
+  }
+  .rss_right_text{
+    font-size: 12px;
+  }
+  }
+  .rss_right_container{
+    width: 100%;
+    margin-right: 30px;
+  }
+  @media (max-width:1120px) {
+    .abc{
+      display: block;
+    }
+    .disposal_pic img{
+        width: 100%;
+    }
+    .disposal_pic {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+
+      
+  }
+  
+
+  /* HEADER HEADER HEADER  HEADER HEADER */
+ header {
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;
+  align-items: center;
+  gap: 1px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  padding: 8px 0px 4px 30px;
+}
+
+nav {
+  display: flex;
+  padding-left: 12vw;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  gap: 35px;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+}
+
+.login_button a,.contact_us a{
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.contact_us {
+  padding: 11px 20px;
+  border-radius: 6px;
+  background-color: #1B7C30;
+  color: white;
+}
+
+.login_button {
+  border: 1px solid white;
+  padding: 10px 25px;
+  border-radius: 6px;
+  background-color: inherit;
+}
+
+.buttons_right {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  right: 30px;
+}
+.navbar a:hover{
+  color: #1B7C30;
+  font-size: 15px;
+}
+
+.navbar li {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.activelink{
+  color: #1B7C30;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #1B7C30;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+.hera_logo{
+  left: 10px;
+
+}
+
+.hera_logo img {
+  height: 32px;
+}
+
+.hera_logo p {
+  font-size: 11.4px;
+  font-weight: 550;
+}
+
+button{
+  border: none;
+}
+
+.nav_phone{
+  display: none;
+}
+.menu-icon {
+  margin-right: 20px;
+  scale: 0.8;
+}
+.nav_phone {
+  text-align: center;
+  height: 90vh;
+}
+
+.menu_bar{
+  position: relative;
+  height: 50px;
+  background-color: #5c595970;
+}
+
+header input{
+  display: none;
+}
+
+.back_icon{
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+.back_icon img{
+  height: 40px;
+}
+
+.phone_navbar li {
+  text-align: start;
+  list-style-type: none;
+  padding: 12px 34px;
+  background-color: #7c7c7c70;
+  border-bottom: 1px solid #7f7f7f;
+}
+
+.phone_navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.phone_navbar_container{
+  margin-bottom: 20px;
+}
+
+.phone_buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.loginphone{
+  background-color: white;
+  border: 1px solid #499A5A;
+  width: 44%;
+}
+
+.loginphone a{
+  color: #499A5A;
+
+}
+
+.registerphone{
+  background-color: #104D1D;
+  color: white;
+  border: none;
+  width: 40%;
+}
+
+.registerphone a{
+  color: white;
+}
+
+.phone_button {
+  padding: 11px 20px;
+}
+
+.phone_button a{
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;   
+}
+
+.nav_phone input{
+  display: none;
+}
+
+.menu_footer{
+  background-color: #7C7C7C;
+  display: flex;
+}
+
+.menu_footer {
+  background-color: #7C7C7C;
+  display: flex;
+  padding: 15px 0px;
+  justify-content: center;
+  font-weight: 600;
+  color: #474747;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.service_button a{
+  text-decoration: none;
+  color: #499A5A;
+}
+
+.menu-icon{
+  display: none;
+}
+
+
+/* REESPONSIVENESS */
+@media screen and (min-width:531px) and (max-width:771px ){ 
+  .hera_logo {
+      line-height: 5px;
+      position: absolute;
+      left: 35px;
+  }
+
+  .login_button, .contact_us{
+      display: none;
+  }
+}
+
+
+@media screen and (min-width:100px) and (max-width: 530px)  { 
+  
+  .login_button , .contact_us{
+      display: none;
+  }
+
+  header {
+      gap: 8%;
+      flex-direction: row-reverse;
+  }
+
+  .hera_logo img {
+      padding-left: 20px;
+      padding-bottom: 2px;
+      height: 17px;
+  }
+
+  .hera_logo {
+      line-height: 5px;
+      position: absolute;
+      left: 0px;
+  }
+
+  .hera_logo p {
+      font-size: 9px;
+      padding-left: 22px;
+      padding-top: 4px;
+  }
+
+  .menu-icon{
+      display: block;
+  }
+
+  .menu-icon img {
+      height: 17px;
+      margin: 0px 3px;
+  }
+}
+
+@media screen and (max-width: 771px){
+  header {
+      gap: 7%;
+      padding: 15px 0px 13px 16px;
+      flex-direction: row-reverse;
+  }
+
+  .navbar,     .nav_button{
+      display: none;
+  }
+
+  .footer-list li {
+      margin: 0px;
+  }
+
+  .footer_items {
+      line-height: 1.5;
+  }
+
+  .menu-icon{
+      display: block;
+      scale: 1.1;
+  }
+
+  .hera_logo p {
+      font-size: 10px;
+      padding-top: 4px;
+  }
+
+  .hera_logo img {
+      height: 18px;
+      padding-bottom: 3px;
+  }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1090px){
+  header {
+      gap: 1%;
+      padding: 8px 0px 4px 7px;
+  }
+
+  .navbar {
+      gap: 34px;
+  }
+
+  .hera_logo img {
+      height: 26px;
+  }
+
+  .hera_logo p {
+      font-size: 11px;
+  }
+
+  nav {
+      padding-left: 11vw;
+  }
+
+  .navbar li {
+      font-size: 12px;
+  }
+
+  .login_button a,.contact_us a{
+      font-size: 11px;
+      font-weight: 500;
+  }
+
+  .login_button {
+      border: 1px solid white;
+      padding: 7px 25px;
+      border-radius: 6px;
+      background-color: inherit;
+  }
+
+
+  .contact_us {
+      padding: 10px 18px;
+      border-radius: 5px;
+  }
+
+  .navbar a:hover{
+      color: #1B7C30;
+      font-size: 13px;
+  }
+}
+
+@media (max-width:780px) {
+  .call_btn {
+    padding-top: 8px;
+    padding-bottom: 5px;
+} 
+
+.flex_both{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 850px){
+
+  .login_button a, .contact_us a {
+      font-size: 10px;
+      font-weight: 500;
+  }
+
+  .login_button {
+      padding: 5px 19px;
+      border-radius: 6px;
+  }
+
+  .contact_us {
+      padding: 5px 9px;
+  }
+
+  .buttons_right {
+      display: flex;
+      gap: 13px;
+      position: absolute;
+      right: 14px;
+  }
+}
+
+
+
+@media only screen and (min-width: 772px) and (max-width: 900px) {
+
+  .hera_logo p {
+      font-size: 10px;
+  }
+
+  .hera_logo img {
+      height: 14px;
+  }
+
+  .navbar li {
+      font-size: 12px;
+  }
+
+  .login_button a, .contact_us a {
+      font-size: 11px;
+      font-weight: 500;
+  }
+
+  .login_button {
+
+      padding: 8px 22px;
+      border-radius: 6px;
+  }
+
+  header {
+      gap: 10px;
+      padding: 11px 0px 11px 8px;
+  }
+
+  .navbar {
+      gap: 19px;
+  }
+
+  .contact_us {
+      padding: 7px 14px;
+  }
+
+  nav {
+      display: flex;
+      padding-left: 6vw;
+  }
+}
+/*  HEADER HEADER HEADER HEADER  HEADER HEADER */
+
+  

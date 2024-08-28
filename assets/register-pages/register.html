@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+    <link rel="stylesheet" href="/assets/css/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<section class="register_container">
+    <div class="form_header">
+        <h1>Register</h1>
+        <p>Thank you for joining us.</p>
+        <p>Please register by completing the information below:</p>
+    </div>
+
+    <form action="">
+        <div class="form_item">
+            <label for="username">User Name </label>
+            <input id="username" type="text" placeholder="e.g Noble">
+        </div>
+
+        <div class="form_item ">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" placeholder="Noble123@gmail.com">
+        </div>
+
+        <div class="form_item ">
+            <label for="tel">Phone Number</label>
+            <input type="number" id="tel" name="phone" inputmode="numeric" placeholder="Enter phone number (max 11 digits)" oninput="this.value = this.value.slice(0, 11)">   
+        </div>
+
+        <div class="password">
+            <div class="form_item1  ">
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="********">
+                <div class="hide_password"><img src="/assets/images/hidden-password.svg" alt=""></div>
+            </div>
+    
+            <div class="form_item1  ">
+                <label for="password">Confirm Password</label>
+                <input id="password" type="password" placeholder="********">
+                <div class="hide_password"><img src="/assets/images/hidden-password.svg" alt=""></div>
+            </div>
+        </div>
+
+        <div class="terms_and_condition">
+            <input type="checkbox" id="tac" name="Terms">
+            <label for="tac">By clicking on the BOX you agree to our <span>TERMS</span> and <span>PRIVACY OF OPERATIONS</span></label>
+        </div>
+        <div class="button"> <button><a href="">REGISTER NOW</a></button></div>
+
+        <div class="register_options">
+            <div class="green"></div>
+            <p>Or Register Via </p>
+            <div class="green"></div>
+        </div>
+    
+        <div class="register_choice">
+            <div><img src="/assets/images/facebook.png" alt=""></div>
+            <div><img src="/assets/images/google.png" alt=""></div>
+        </div>
+    
+        <p class="have_account">Have an account already? <span>Login</span></p>
+    </form>
+    
+</section>
+<footer>
+    <div><img src="/assets/images/Lock_black.svg" alt=""></div>
+    <p>Eccentric Cleaning Solutions</p>
+</footer>
+
+

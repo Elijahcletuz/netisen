@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.register_container {
+    margin: 0px 10%;
+}
+
+form {
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    border-radius: 26px;
+    padding: 64px 70px 60px 80px;
+    margin-top: 40px;
+    margin-bottom: 110px;
+}
+
+.form_header{
+    width: 100%;
+    text-align: center;
+}
+
+.form_header h1 {
+    font-size: 30px;
+    padding: 50px 0px 20px 0px;
+}
+
+.form_header p {
+    text-align: start;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 61px;
+}
+
+.form_item label, .form_item1 label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+
+
+.form_item input {
+    font-size: 14px;
+    font-weight: 500;
+    border: 1.5px solid #7c7777;
+    border-radius: 10px;
+    padding: 16px 18px;
+    width: 100%;
+}
+
+.form_item1 input {
+    font-size: 14px;
+    font-weight: 500;
+    border: 1.5px solid #7c7777;
+    border-radius: 10px;
+    padding: 16px 18px;
+    width: 100%;
+}
+
+.form_item1 {
+    position: relative;
+    width: 49%;
+}
+
+.password {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+}
+
+.hide_password img{
+    height: 25px;
+    width: 25px;
+}
+
+.hide_password {
+    position: absolute;
+    top: 35px;
+    right: 21px;
+}
+
+.terms_and_condition {
+    padding: 18px 0px 22px 0px;
+    font-size: 13.7px;
+    display: flex;
+    gap: 10px;
+}
+
+.terms_and_condition input {
+    width: 17px;
+}
+
+.terms_and_condition label {
+    color: #7C7C7C;
+    font-weight: 600;
+}
+
+.terms_and_condition span{
+    color: #499A5A;
+    font-weight: 700;
+}
+
+form button {
+    text-align: center;
+    width: 28%;
+    font-weight: 600;
+    border: none;
+    background-color: #499A5A;
+    border-radius: 5px;
+    margin: 18px 0px 10px 0px;
+    padding: 14px 0px;
+}
+
+form button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+   
+
+}
+
+.register_options{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    align-items: center;
+}
+
+.register_options p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 10px;
+    width: 180px;
+}
+
+.green{
+    height: 2px;
+    width: 45%;
+    background-color: #1B7C30;
+}
+
+.register_options p {
+    font-size: 16px;
+    padding-top: 0px;
+    width: 180px;
+}
+
+
+.line {
+    width: 40%;
+}
+
+.line img{
+    width: 100%;
+}
+
+.register_choice {
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.register_choice img {
+    width: 142px;
+    height: 58px;
+}
+
+.register_choice div {
+    width: 50%;
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input{
+    accent-color: green;
+}
+
+footer {
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #111111de;
+    gap: 13px;
+    align-items: center;
+}
+
+footer p{
+    font-weight: 550;
+    font-size: 16px;
+}
+
+.have_account {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.have_account span{
+    color: #1B7C30;
+    padding-left: 10px;
+}
+
+@media screen  and (max-width: 890px) {
+    .form_header h1 {
+        font-size: 24px;
+        padding: 35px 0px 12px 0px;
+    }
+
+    form {
+        gap: 18px;
+        padding: 40px 40px 30px 40px;
+        margin-top: 20px;
+        margin-bottom: 78px;
+    }
+
+    .form_item input {
+        font-size: 12px;
+        border: 1.5px solid #7c7777;
+        border-radius: 10px;
+        padding: 14px 18px;
+    }
+
+    .form_header p {
+        font-size: 13px;
+        padding-left: 51px;
+    }
+    
+    
+
+    .form_item label, .form_item1 label {
+        display: block;
+        font-weight: 700;
+        font-size: 12px;
+        padding-bottom: 4px;
+    }
+
+    .hide_password img {
+        height: 18px;
+        width: 18px;
+    }
+
+    .terms_and_condition {
+        padding: 7px 0px 6px 0px;
+        font-size: 9.5px;
+        gap: 6px;
+    }
+
+    form button {
+        text-align: center;
+        width: 25%;
+        font-weight: 600;
+        border: none;
+        background-color: #499A5A;
+        border-radius: 5px;
+        margin: 0px 0px 0px 0px;
+        padding: 10px 0px;
+    }
+
+    form button a {
+        font-size: 12px;
+    }
+
+    .register_choice img {
+        width: 124px;
+        height: 50px;
+    }
+
+    .register_options p {
+        font-size: 12px;
+        padding-top: 0px;
+        width: 163px;
+    }
+
+
+    .have_account {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .register_container {
+        margin: 0px 50px;
+    }
+    
+}
+
+@media screen  and (max-width: 600px){
+
+    .form_header p {
+        font-size: 13px;
+        padding-left: 31px;
+    }
+
+    .form_header h1 {
+        text-align: start;
+        font-size: 24px;
+        padding: 35px 0px 12px 33px;
+    }
+
+    .password {
+        width: 100%;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .form_item1 {
+        width: 100%;
+    }
+
+    .hide_password img {
+        height: 16px;
+        width: 16px;
+    }
+
+    .form_item1 input {
+        font-size: 13px;
+        border-radius: 7px;
+        padding: 14px 18px;
+        width: 100%;
+    }
+
+    .form_item label, .form_item1 label {
+        display: block;
+        font-weight: 700;
+        font-size: 12px;
+        padding-bottom: 10px;
+        padding-left: 4px;
+    }
+
+    form button a {
+        font-size: 9.7px;
+    }
+
+    form button {
+        width: 100%;
+        border-radius: 5px;
+        margin: 0px 0px 0px 0px;
+        padding: 8px 0px;
+    }
+
+    .green {
+        height: 1.5px;
+        width: 28%;
+        background-color: #1B7C30;
+    }
+
+    .register_options p {
+        font-size: 9px;
+        padding-top: 0px;
+        width: 151px;
+    }
+
+
+    .register_choice img {
+        width: 95px;
+        height: 39px;
+    }
+
+    .have_account {
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: -16px;
+    }
+
+    footer p {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    footer img {
+        height: 20px;
+        width: 20px;
+        padding-top: 5px;
+    }
+
+    form {
+        gap: 17px;
+        padding: 40px 40px 30px 40px;
+        margin-top: 20px;
+        margin-bottom: 17px;
+    }
+
+    .register_container {
+        margin: 0px 20px;
+    }
+
+    form {
+        gap: 17px;
+        padding: 40px 30px 30px 30px;
+        margin-top: 20px;
+        margin-bottom: 17px;
+    }
+}
+
+@media screen  and (max-width: 180px){
+    .register_container {
+        margin: 0px 2px;
+    }
+
+    form {
+        gap: 10px;
+        padding: 20px 10px 15px 10px;
+        margin-top: 10px;
+        margin-bottom: 7px;
+        border-radius: 7px;
+
+    }
+    
+
+    .form_item label, .form_item1 label {
+        font-size: 10px;
+        padding-bottom: 4px;
+        padding-left: 4px;
+    }
+
+    .form_item input,    .form_item1 input {
+        font-size: 7px;
+        border: 1px solid #7c7777;
+        border-radius: 7px;
+        padding: 14px 7px;
+    }
+
+    .hide_password img {
+        height: 10px;
+        width: 10px;
+    }
+
+    .hide_password {
+        position: absolute;
+        top: 25px;
+        right: 19px;
+    }
+
+    .form_header h1 {
+        text-align: start;
+        font-size: 13px;
+        padding: 10px 0px 12px 14px;
+    }
+
+    .form_header p {
+        font-size: 9px;
+        padding-left: 13px;
+    }
+
+    .terms_and_condition label {
+        color: #7C7C7C;
+        font-weight: 600;
+        font-size: 6px;
+    }
+
+    form button {
+        width: 100%;
+        border-radius: 5px;
+        margin: -7px 0px 0px 0px;
+        padding: 1px 0px 4px 0px;
+    }
+
+    form button a {
+        font-size: 6.7px;
+    }
+
+    .register_options p {
+        font-size: 7px;
+        padding-top: 0px;
+        width: 100px;
+    }
+
+    .line {
+        width: 44%;
+    }
+
+    .register_choice img {
+        width: 46px;
+        height: 19px;
+    }
+
+    .have_account {
+        font-size: 5px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: -17px;
+    }
+
+    footer p {
+        font-weight: 600;
+        font-size: 4px;
+    }
+
+    footer img {
+        height: 14px;
+        width: 8px;
+        padding-top: 3px;
+    }
+
+    footer {
+        padding: 4px;
+        gap: 2px;
+    }
+
+}
+
+
+

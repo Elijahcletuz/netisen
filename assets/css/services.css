@@ -1,0 +1,1282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+ /* HEADER HEADER HEADER  HEADER HEADER */
+ header {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    align-items: center;
+    gap: 1px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    padding: 8px 0px 4px 30px;
+}
+
+nav {
+    display: flex;
+    padding-left: 12vw;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+}
+
+.login_button a,.contact_us a{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.contact_us {
+    padding: 11px 20px;
+    border-radius: 6px;
+    background-color: #1B7C30;
+    color: white;
+}
+
+.login_button {
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 6px;
+    background-color: inherit;
+}
+
+.buttons_right {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right: 30px;
+}
+.navbar a:hover{
+    color: #1B7C30;
+    font-size: 15px;
+}
+
+.navbar li {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.activelink{
+    color: #1B7C30;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #1B7C30;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.hera_logo{
+    left: 10px;
+
+}
+
+.hera_logo img {
+    height: 32px;
+}
+
+.hera_logo p {
+    font-size: 11.4px;
+    font-weight: 550;
+}
+
+button{
+    border: none;
+}
+
+.nav_phone{
+    display: none;
+}
+.menu-icon {
+    margin-right: 20px;
+    scale: 0.8;
+}
+.nav_phone {
+    text-align: center;
+    height: 90vh;
+}
+
+.menu_bar{
+    position: relative;
+    height: 50px;
+    background-color: #5c595970;
+}
+
+header input{
+    display: none;
+}
+
+.back_icon{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+.back_icon img{
+    height: 40px;
+}
+
+.phone_navbar li {
+    text-align: start;
+    list-style-type: none;
+    padding: 12px 34px;
+    background-color: #7c7c7c70;
+    border-bottom: 1px solid #7f7f7f;
+}
+
+.phone_navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.phone_navbar_container{
+    margin-bottom: 20px;
+}
+
+.phone_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.loginphone{
+    background-color: white;
+    border: 1px solid #499A5A;
+    width: 44%;
+}
+
+.loginphone a{
+    color: #499A5A;
+
+}
+
+.registerphone{
+    background-color: #104D1D;
+    color: white;
+    border: none;
+    width: 40%;
+}
+
+.registerphone a{
+    color: white;
+}
+
+.phone_button {
+    padding: 11px 20px;
+}
+
+.phone_button a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;   
+}
+
+.nav_phone input{
+    display: none;
+}
+
+.menu_footer{
+    background-color: #7C7C7C;
+    display: flex;
+}
+
+.menu_footer {
+    background-color: #7C7C7C;
+    display: flex;
+    padding: 15px 0px;
+    justify-content: center;
+    font-weight: 600;
+    color: #474747;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.service_button a{
+    text-decoration: none;
+    color: #499A5A;
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+/* REESPONSIVENESS */
+@media screen and (min-width:531px) and (max-width:771px ){ 
+    .hera_logo {
+        line-height: 5px;
+        position: absolute;
+        left: 35px;
+    }
+
+    .login_button, .contact_us{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:100px) and (max-width: 530px)  { 
+    
+    .login_button , .contact_us{
+        display: none;
+    }
+
+    header {
+        gap: 8%;
+        flex-direction: row-reverse;
+    }
+
+    .hera_logo img {
+        padding-left: 20px;
+        padding-bottom: 2px;
+        height: 17px;
+    }
+
+    .hera_logo {
+        line-height: 5px;
+        position: absolute;
+        left: 0px;
+    }
+
+    .hera_logo p {
+        font-size: 9px;
+        padding-left: 22px;
+        padding-top: 4px;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .menu-icon img {
+        height: 17px;
+        margin: 0px 3px;
+    }
+}
+
+@media screen and (max-width: 771px){
+    header {
+        gap: 7%;
+        padding: 15px 0px 13px 16px;
+        flex-direction: row-reverse;
+    }
+
+    .navbar,     .nav_button{
+        display: none;
+    }
+
+    .footer-list li {
+        margin: 0px;
+    }
+
+    .footer_items {
+        line-height: 1.5;
+    }
+
+    .menu-icon{
+        display: block;
+        scale: 1.1;
+    }
+
+    .hera_logo p {
+        font-size: 10px;
+        padding-top: 4px;
+    }
+
+    .hera_logo img {
+        height: 18px;
+        padding-bottom: 3px;
+    }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1090px){
+    header {
+        gap: 1%;
+        padding: 8px 0px 4px 7px;
+    }
+
+    .navbar {
+        gap: 34px;
+    }
+
+    .hera_logo img {
+        height: 26px;
+    }
+
+    .hera_logo p {
+        font-size: 11px;
+    }
+
+    nav {
+        padding-left: 11vw;
+    }
+
+    .navbar li {
+        font-size: 12px;
+    }
+
+    .login_button a,.contact_us a{
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .login_button {
+        border: 1px solid white;
+        padding: 7px 25px;
+        border-radius: 6px;
+        background-color: inherit;
+    }
+
+
+    .contact_us {
+        padding: 10px 18px;
+        border-radius: 5px;
+    }
+
+    .navbar a:hover{
+        color: #1B7C30;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:780px) {
+    .call_btn {
+      padding-top: 8px;
+      padding-bottom: 5px;
+  } 
+  
+  .flex_both{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 850px){
+  
+    .login_button a, .contact_us a {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .login_button {
+        padding: 5px 19px;
+        border-radius: 6px;
+    }
+
+    .contact_us {
+        padding: 5px 9px;
+    }
+
+    .buttons_right {
+        display: flex;
+        gap: 13px;
+        position: absolute;
+        right: 14px;
+    }
+}
+
+
+
+@media only screen and (min-width: 772px) and (max-width: 900px) {
+
+    .hera_logo p {
+        font-size: 10px;
+    }
+
+    .hera_logo img {
+        height: 14px;
+    }
+
+    .navbar li {
+        font-size: 12px;
+    }
+
+    .login_button a, .contact_us a {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .login_button {
+
+        padding: 8px 22px;
+        border-radius: 6px;
+    }
+
+    header {
+        gap: 10px;
+        padding: 11px 0px 11px 8px;
+    }
+
+    .navbar {
+        gap: 19px;
+    }
+
+    .contact_us {
+        padding: 7px 14px;
+    }
+
+    nav {
+        display: flex;
+        padding-left: 6vw;
+    }
+}
+/*  HEADER HEADER HEADER HEADER  HEADER HEADER */
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hera_footer {
+    width: 45%;
+    padding: 109px 30px 90px 82px;
+    font-size: 48px;
+    background-color: #000000;
+}
+
+.hera_footer p {
+    width: 61%;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    padding: 2% 0% 3% 0%;
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+.hera_footer h1 {
+    font-size: 23px;
+    color: white;
+}
+
+.footer_items h2 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer_items {
+    display: flex;
+    width: 55%;
+    gap: 29px;
+    padding-top: 55px;
+    color: white;
+    background-color: #000000;
+}
+
+.footer_items >div{
+    width: 33.3%;
+}
+
+.footer_items li{
+    list-style-type: none;
+
+}
+
+.footer-list li {
+    margin: 7.5% 0%;
+}
+
+.footer_items a {
+    text-decoration: none;
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+
+.hera_socials{
+    display: flex;
+    position: relative;
+    gap: 2%;
+    padding: 1% 0%;
+    background-color: #111111;
+    color: white;
+    width: 100%;
+}
+
+.connect_phone{
+    background-color: #1b1a1a;
+    display: flex;
+    color: white;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 13px 0px;
+}
+
+.connect_phone_left {
+    display: flex;
+    padding-left: 80px;
+    align-items: center;
+}
+
+.x{
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.connect_phone_right {
+    display: flex;
+    position: absolute;
+    right: 59px;
+}
+
+.handle_image{
+    scale: 0.8;
+}
+
+.connect_phone_right p {
+    padding-top: 3px;
+    padding-left: 9px;
+}
+
+.connect_phone_right a{
+    text-decoration: none;
+    color: white;
+}
+
+.connect_phone_right a:hover{
+    color: rgb(104, 110, 99);
+    font-weight: 500;
+}
+
+.hera_socials h3{
+    padding: 0% 5%;
+    font-size: 1.3rem;
+}
+
+.hera_num{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right:5%;
+}
+
+.footer-list li:hover a {
+    color: green;
+    font-size: 14.5px;
+    padding-left: 1px;
+}
+
+.hidden {
+    display: none;
+  }
+
+
+header input{
+    display: none;
+}
+
+
+/* RESPONSIVENESS FOOTER RESPONSIVENESS FOOTER */
+@media screen and (min-width:531px) and (max-width:771px ){ 
+    .hera_footer {
+        width: 100%;
+        order: 2;
+        padding: 0px 30px 8px 22px;
+    }
+
+    .hera_footer p {
+        width: 61%;
+        font-size: 13px;
+    }
+
+    .hera_footer h1 {
+        font-size: 16px;
+    }
+
+    .hera_footer_logo img {
+        width: 83px;
+        height: 50px;
+    }
+
+    .hera_footer_logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .connect_phone_left {
+        display: flex;
+        padding-left: 22px;
+        align-items: center;
+    }
+
+    .connect_phone_left h3 {
+        font-size: 15px;
+    }
+
+    .handle_image {
+        scale: 0.65;
+    }
+    
+    .x {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .connect_phone_right a {
+        font-size: 15px;
+    }
+
+    .footer_items {
+        width: 100%;
+        padding: 4% 0%;
+        line-height: 1.8;
+        padding-left: 25px;
+    }
+
+
+    .footer_items a {
+        font-size: 12px;
+    }
+
+    .footer-list li:hover a {
+        font-size: 12.5px;
+    }
+
+
+    .footer_items h2 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .connect_phone {
+        padding: 6px 0px;
+        order: 3;
+    }
+}
+
+
+@media screen and (min-width:100px) and (max-width: 530px)  { 
+    .hera_footer {
+        width: 100%;
+        order: 2;
+        padding: 8px 30px 0px 22px;
+    }
+
+    .hera_footer p {
+        width: 71%;
+        font-size: 13px;
+    }
+
+    .hera_footer h1 {
+        font-size: 16px;
+    }
+
+    .hera_footer_logo img {
+        width: 83px;
+        height: 50px;
+    }
+
+    .hera_footer_logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .connect_phone_left {
+        display: flex;
+        padding-left: 5%;
+        align-items: center;
+    }
+
+    .connect_phone_left h3 {
+        font-size: 15px;
+    }
+
+    .handle_image {
+        scale: 0.65;
+    }
+    
+    .x {
+        padding-left: 22px;
+        padding-right: 1px;
+    }
+
+    .connect_phone_right a {
+        font-size: 15px;
+    }
+
+    .footer_items >div {
+        width: 100%;
+    }
+
+    .footer_items {
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        padding: 4% 0%;
+        padding-left: 25px;
+    }
+
+    .footer_phone_number{
+        display: none;
+    }
+
+    .connect_phone_right {
+        left: 233px;
+    }
+
+    .footer_items a {
+        font-size: 12px;
+    }
+
+    .footer-list li:hover a {
+        font-size: 12.5px;
+    }
+
+
+    .footer_items h2 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .connect_phone {
+        padding: 6px 0px;
+        order: 3;
+    }
+
+    .faq{
+        order: 2;
+    }
+
+    .our_service_footer{
+        order: 1;
+    }
+
+    .more{
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 771px){
+    .footer-list li {
+        margin: 0px;
+    }
+
+    .footer_items {
+        line-height: 1.5;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1090px) {
+    .footer_items >div {
+        width: 35.3%;
+        line-height: 2;
+    }
+
+    .footer_items {
+        display: flex;
+        width: 60%;
+        gap: 1px;
+        padding-top: 55px;
+        color: white;
+        background-color: #000000;
+    }
+
+    .hera_footer {
+        width: 40%;
+        padding: 109px 30px 90px 32px;
+        font-size: 48px;
+        background-color: #000000;
+    }
+
+    .hera_footer p {
+        width: 79%;
+        font-size: 13px;
+    }
+}
+
+
+
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER */
+
+button{
+    border: none;
+}
+
+.services_banner{
+    background-image: url(/assets/images/services_banner.svg);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+
+.services_banner_title {
+    position: absolute;
+    background-color: #111111e6;
+    top: 314px;
+    right: 127px;
+}
+
+.services_banner_title h4 {
+    font-weight: 500;
+    font-size: 18px;
+    word-spacing: 1px;
+    width: 314px;
+    text-align: center;
+    color: white;
+    padding: 22px 31px 22px 48px;
+}
+
+.all_hera_services {
+    background-color: #F7FEFA;
+    padding: 16px 61px 140px 61px;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+.waste_quotes{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    background-color: rgb(161, 163, 162);
+    justify-content: flex-end;
+}
+
+
+.bin_anime_image img {
+    width: 318px;
+}
+
+.waste_quote {
+    width: 60%;
+    padding: 91px 32px;
+}
+
+.waste_quote p {
+    width: 81%;
+    font-size: 20px;
+    line-height: 26.2px;
+    color: white;
+    font-weight: 500;
+}
+
+.quotes_button {
+    margin-top: 16px;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: inherit;
+}
+
+
+
+
+
+
+/* footer */
+
+
+
+/* footer */
+
+
+
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+
+    .services_banner_title {
+        position: absolute;
+        background-color: #111111e6;
+        top: 265px;
+        right: 39px;
+    }
+
+    .services_banner_title h4 {
+        font-size: 17px;
+        width: 273px;
+        padding: 22px 9px 22px 39px;
+    }
+
+    .waste_quote {
+        width: 67%;
+        padding: 72px 32px;
+    }
+
+    .waste_quote p {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:491px) and (max-width: 660px){
+    .services_banner {
+        background-position: 83%;
+        height: 315px;
+    }
+
+    .services_banner_title {
+        background-color: #111111e6;
+        top: 116px;
+        right: 154px;
+    }
+
+    .services_banner_title h4 {
+        font-size: 13px;
+        word-spacing: 0.5px;
+        width: 205px;
+        line-height: 18px;
+        padding: 12px 9px 15px 12px;
+    }
+
+    .bin_anime_image {
+        width: 31%;
+    }
+
+    .bin_anime_image img {
+        width: 100%;
+        height: 229px;
+    }
+
+    .waste_quotes{
+        gap: 1px;
+    }
+
+    .waste_quote {
+        width: 63%;
+        padding: 20px 4px;
+    }
+
+    .waste_quote p {
+        width: 98%;
+        font-size: 13.5px;
+        line-height: 23.2px;
+    }
+
+    .quotes_button {
+        margin-top: 16px;
+        font-size: 11px;
+        padding: 11px 16px;
+    }
+
+    .service_button {
+        left: 38.5%;
+        top: 397px;
+    }
+}
+
+@media screen and (min-width:661px) and (max-width: 799px) {
+    .services_banner {
+        height: 384px;
+    }
+
+    .services_banner_title {
+        top: 183px;
+        right: 60px;
+    }
+
+    .services_banner_title h4 {
+        font-size: 17px;
+        width: 273px;
+        padding: 22px 9px 22px 39px;
+    }
+   
+   
+
+    .bin_anime_image img {
+        width: 267px;
+        height: 229px;
+    }
+
+    .waste_quote {
+        width: 63%;
+        padding: 20px 4px;
+    }
+
+    .waste_quote p {
+        width: 98%;
+        font-size: 13.5px;
+        line-height: 23.2px;
+    }
+
+    .quotes_button {
+        margin-top: 16px;
+        font-size: 11px;
+        padding: 11px 16px;
+    }
+}
+
+@media screen and  (max-width: 660px){
+    .service_button {
+        padding: 13px 22px;
+        left: 42%;
+        top: 397px;
+        font-weight: 600;
+    } 
+}
+
+@media screen and  (max-width: 560px){
+    .all_hera_services{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}
+
+
+
+@media screen and  (max-width: 490px){
+
+    .services_banner {
+        background-position: 86%;
+        height: 206px;
+    }
+
+    .services_banner_title {
+        background-color: #111111e6;
+        top: 78px;
+        right: 118px;
+    }
+
+    .services_banner_title h4 {
+        font-size: 10px;
+        word-spacing: 0.5px;
+        width: 148px;
+        padding: 11px 9px 9px 9px;
+    }
+
+    .bin_anime_image img {
+        width: 100%;
+    }
+
+    .waste_quotes {
+        gap: 5px;
+    }
+
+    .waste_quote {
+        width: 94%;
+        padding: 17px 2px;
+        position: relative;
+    }
+
+    .waste_quote p {
+        width: 69%;
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+    .quotes_button {
+        position: absolute;
+        right: 17px;
+        bottom: 12px;
+        padding: 5px 5px;
+        font-size: 8px;
+        color: white;
+        border-radius: 5px;
+    }
+}
+
+
+
+.service_header {
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    width: 100%;
+    padding: 2% 0%;
+}
+
+.service_header h1{
+    width: 30%;
+    text-align: center;
+}
+
+.line_left, .line_right {
+    width: 34%;
+}
+
+.line_left img, .line_right img{
+    width: 100%;
+}
+
+.cleaning_service, .fumigation_service, .pickup_waste {
+    text-align: center;
+    background-color: #f7fefa;
+    padding: 2% 0% 0%;
+    border-bottom: 1px solid #808080b0;
+}
+
+.service_content {
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    text-align: center;
+    justify-content: center;
+}
+
+.service_item {
+    border: 1px solid #D9D9D9;
+    width: 40%;
+    padding: 1% 0%;
+    background-color: #f7fefa;
+}
+
+.service_item h3 {
+    font-size: 16px;
+    color: #499A5A;
+    padding: 5% 0%;
+    text-align: center;
+}
+
+.service_item p {
+    font-size: 14px;
+    color: #7C7C7C;
+    padding: 4% 8% 0%;
+    font-weight: 600;
+    width: 100%;
+    font-style: normal;
+}
+
+
+.know_more {
+    text-decoration: none;
+    color: #499A5A;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+}
+.service_item img {
+    margin: 4% 0%;
+}
+
+.services_button {
+    padding: 14px 38px;
+    color: #499A5A;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 6px;
+    margin: 2.5% 0% 4%;
+}
+
+.pickup_waste {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service_item:hover{
+    background-color: white;
+    scale: 1.01;
+    box-shadow: 2px 5px 4px 5px rgb(221, 219, 219);
+}
+
+.direct{
+    font-style: normal;
+      text-decoration: none;
+}
+
+
+
+@media screen  and (max-width:800px){
+    .service_header h1 {
+        width: 30%;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .service_item {
+        border: 1px solid #D9D9D9;
+        width: 45%;
+        padding: 1% 0%;
+        background-color: #f7fefa;
+    }
+
+    .pickup{
+        width: 60%;
+    }
+    
+}
+
+@media screen and (max-width:570px){
+    .service_item h3 {
+        font-size: 9px;
+        color: #499A5A;
+        padding: 5% 0%;
+        text-align: center;
+    }
+
+    .service_item img {
+        margin: 1% 0%;
+        width: 55px;
+        height: 55px;
+    }
+
+    .service_item p {
+        font-size: 9px;
+        color: #7C7C7C;
+        padding: 4% 8%;
+        font-weight: 600;
+        width: 100%;
+    }
+
+    .service_header h1 {
+        width: 30%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .services_button {
+        padding: 9px 31px;
+        color: #499A5A;
+        font-weight: 500;
+        font-size: 8px;
+        background-color: white;
+        border-radius: 6px;
+        margin: 2.5% 0% 4%;
+    }
+
+    .service_header h1 {
+        width: 65%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .service_header {
+        display: flex;
+        align-items: center;
+        gap: 1%;
+        width: 100%;
+        padding: 5% 0%;
+    }
+    
+}
+
+.service_item {
+    opacity: 0;
+    transform: translateX(-30%);
+    transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.service_item.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+

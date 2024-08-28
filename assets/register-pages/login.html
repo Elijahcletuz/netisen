@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header class="header">  
+            <input type="checkbox" id="active-menu">
+            <label for="active-menu">
+                <div class="menu-icon" ><img src="/assets/images/menu_icon.svg" alt=""></div>
+            </label>
+          
+            <div class="hera_logo">
+                <div><img src="/assets/images/heralogo.svg" alt=""></div>
+                <p>Hera Waste System</p>    
+            </div>
+
+             <div class="buttons_right">
+                <button class="login_button"><a href="">My Account</a></button>
+             </div>   
+         </header>
+
+
+        <section class="login_container">
+            <div class="login_image">
+                <div class="login_left">
+                    <h1>My Account Portal</h1>
+                    <p>
+                        Get Quick Access to My Profile, Change Password, and Manage, Phone number and Edit address.
+                    </p>
+                </div>
+            </div>
+
+            <div class="login_content">
+                 <h3>Welcome to My Account portal. Login or Register to access  your Dashboard</h3> <br>
+                 <form id="form" action="">
+                    <div class="form_item">
+                        <label for="username">Username</label>
+                        <input id="username" type="text" placeholder="Username" required maxlength="16">
+                        <span class="error username_error">Enter your username</span>
+                    </div>
+                
+                    <div class="form_item form_item1">
+                        <label for="password">Password</label>
+                        <div class="password_input">
+                            <input id="password" type="password" placeholder="********" maxlength="16">
+                            <div class="hide_password">
+                                <img src="/assets/images/hidden-password.svg" id="togglePassword">
+                            </div>
+                        </div>
+                        <span class="error error_password"><img src="/assets/images/error.svg" alt="">Use a correct password</span>
+                    </div>
+                
+                    <div class="remember">
+                        <div class="checkbox">
+                            <input type="checkbox" id="rem" name="remember">
+                            <label for="rem">Remember My Password</label>
+                        </div>
+                        <div class="forgot">Forget Password?</div>
+                    </div>
+                
+                    <div class="login_right">
+                        <button id="submitButton" class="login_button initial_button" type="submit">LOGIN</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="option_section">
+            <div class="login_text">
+                <p>No Account?   Register for Free!</p>
+            </div>
+
+            <div class="register_right">
+                <button class="register_button"><a href="/assets/register-pages/register.html">REGISTER NOW</a></button>
+                <button class="pay_guest "><a href="" id="button">PAY AS GUEST</a> </button> 
+             </div> 
+        </section>
+
+        
+
+         <div class="menu_footer">
+            <div><img src="/assets/images/Lock_fill.svg" alt=""></div>
+            <div>Hera Waste Management Services</div>
+         </div>
+
+         <section class="forgot_password">
+            <div class="forgot_password_container">
+                <h2>Forgot Password</h2>
+                <p>Enter your registered Phone Number or Email Address</p>
+                <form action="">
+                    <div class="form_item form_item3">
+                        <label for="tel" class="phone_email">Phone Number/Email Address</label>
+                        <input type="text" id="tel" name="phone"  placeholder="e.g 08100675943">   
+                    </div>
+
+                    <div class="forgot_pass_button">
+                        <button class="resend_link"><a href="">Send Reset Link</a></button>
+                    </div>
+
+                    <div>
+                        <button class="back_button"><a href="" >Go Back</a></button>
+                    </div>
+                </form>
+            </div>
+         </section>
+
+
+         <section class="new_password">
+            <div class="new_password_container">
+                <h2>Input new Password</h2>
+            <p>Enter your desired password</p>
+
+            <form action="" class="form3">
+                <div class="form_item  form_item4">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" placeholder="********">
+                    <div class="hide_password1"><img src="/assets/images/hidden-password.svg" alt=""></div>
+                </div>
+        
+                <div class="form_item  form_item4">
+                    <label for="password">Confirm Password</label>
+                    <input id="password" type="password" placeholder="********">
+                    <div class="hide_password1"><img src="/assets/images/hidden-password.svg" alt=""></div>
+                    <span class="error_password_match"><div><img src="/assets/images/error.svg" alt=""></div>password do not match</span>
+                </div>
+
+                <div class="submit_newpassword">
+                    <button type="submit"><a href="">Confirm</a></button>
+                </div>
+
+                <div class="remember1">
+                    <div class="checkbox">
+                        <input type="checkbox" id="rem" name="remember">
+                        <label for="rem" id="rem4">Remember My Password</label>
+                    </div>
+
+                    <div class="go_back"><a href="">Go Back</a></div>
+                 </div>
+
+             </form>
+
+            </div>
+         </section>
+
+    </main>
+    <script src="/assets/register-pages/login.js"></script>
+</body>

@@ -1,0 +1,2256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+ /* HEADER HEADER HEADER  HEADER HEADER */
+ header {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    align-items: center;
+    gap: 1px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    padding: 8px 0px 4px 30px;
+}
+
+nav {
+    display: flex;
+    padding-left: 12vw;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+}
+
+.login_button a,.contact_us a{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.contact_us {
+    padding: 11px 20px;
+    border-radius: 6px;
+    background-color: #1B7C30;
+    color: white;
+}
+
+.login_button {
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 6px;
+    background-color: inherit;
+}
+
+.buttons_right {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right: 30px;
+}
+.navbar a:hover{
+    color: #1B7C30;
+    font-size: 15px;
+}
+
+.navbar li {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.activelink{
+    color: #1B7C30;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #1B7C30;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.hera_logo{
+    left: 10px;
+
+}
+
+.hera_logo img {
+    height: 32px;
+}
+
+.hera_logo p {
+    font-size: 11.4px;
+    font-weight: 550;
+}
+
+button{
+    border: none;
+}
+
+.nav_phone{
+    display: none;
+}
+.menu-icon {
+    margin-right: 20px;
+    scale: 0.8;
+}
+.nav_phone {
+    text-align: center;
+    height: 90vh;
+}
+
+.menu_bar{
+    position: relative;
+    height: 50px;
+    background-color: #5c595970;
+}
+
+header input{
+    display: none;
+}
+
+.back_icon{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+.back_icon img{
+    height: 40px;
+}
+
+.phone_navbar li {
+    text-align: start;
+    list-style-type: none;
+    padding: 12px 34px;
+    background-color: #7c7c7c70;
+    border-bottom: 1px solid #7f7f7f;
+}
+
+.phone_navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.phone_navbar_container{
+    margin-bottom: 20px;
+}
+
+.phone_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.loginphone{
+    background-color: white;
+    border: 1px solid #499A5A;
+    width: 44%;
+}
+
+.loginphone a{
+    color: #499A5A;
+
+}
+
+.registerphone{
+    background-color: #104D1D;
+    color: white;
+    border: none;
+    width: 40%;
+}
+
+.registerphone a{
+    color: white;
+}
+
+.phone_button {
+    padding: 11px 20px;
+}
+
+.phone_button a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;   
+}
+
+.nav_phone input{
+    display: none;
+}
+
+.menu_footer{
+    background-color: #7C7C7C;
+    display: flex;
+}
+
+.menu_footer {
+    background-color: #7C7C7C;
+    display: flex;
+    padding: 15px 0px;
+    justify-content: center;
+    font-weight: 600;
+    color: #474747;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.service_button a{
+    text-decoration: none;
+    color: #499A5A;
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+/* REESPONSIVENESS */
+@media screen and (min-width:531px) and (max-width:771px ){ 
+    .hera_logo {
+        line-height: 5px;
+        position: absolute;
+        left: 35px;
+    }
+
+    .login_button, .contact_us{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:100px) and (max-width: 530px)  { 
+    
+    .login_button , .contact_us{
+        display: none;
+    }
+
+    header {
+        gap: 8%;
+        flex-direction: row-reverse;
+    }
+
+    .hera_logo img {
+        padding-left: 20px;
+        padding-bottom: 2px;
+        height: 17px;
+    }
+
+    .hera_logo {
+        line-height: 5px;
+        position: absolute;
+        left: 0px;
+    }
+
+    .hera_logo p {
+        font-size: 9px;
+        padding-left: 22px;
+        padding-top: 4px;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .menu-icon img {
+        height: 17px;
+        margin: 0px 3px;
+    }
+}
+
+@media screen and (max-width: 771px){
+    header {
+        gap: 7%;
+        padding: 15px 0px 13px 16px;
+        flex-direction: row-reverse;
+    }
+
+    .navbar,     .nav_button{
+        display: none;
+    }
+
+    .footer-list li {
+        margin: 0px;
+    }
+
+    .footer_items {
+        line-height: 1.5;
+    }
+
+    .menu-icon{
+        display: block;
+        scale: 1.1;
+    }
+
+    .hera_logo p {
+        font-size: 10px;
+        padding-top: 4px;
+    }
+
+    .hera_logo img {
+        height: 18px;
+        padding-bottom: 3px;
+    }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1090px){
+    header {
+        gap: 1%;
+        padding: 8px 0px 4px 7px;
+    }
+
+    .navbar {
+        gap: 34px;
+    }
+
+    .hera_logo img {
+        height: 26px;
+    }
+
+    .hera_logo p {
+        font-size: 11px;
+    }
+
+    nav {
+        padding-left: 11vw;
+    }
+
+    .navbar li {
+        font-size: 12px;
+    }
+
+    .login_button a,.contact_us a{
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .login_button {
+        border: 1px solid white;
+        padding: 7px 25px;
+        border-radius: 6px;
+        background-color: inherit;
+    }
+
+
+    .contact_us {
+        padding: 10px 18px;
+        border-radius: 5px;
+    }
+
+    .navbar a:hover{
+        color: #1B7C30;
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 850px){
+  
+    .login_button a, .contact_us a {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .login_button {
+        padding: 5px 19px;
+        border-radius: 6px;
+    }
+
+    .contact_us {
+        padding: 5px 9px;
+    }
+
+    .buttons_right {
+        display: flex;
+        gap: 13px;
+        position: absolute;
+        right: 14px;
+    }
+}
+
+
+
+@media only screen and (min-width: 772px) and (max-width: 900px) {
+
+    .hera_logo p {
+        font-size: 10px;
+    }
+
+    .hera_logo img {
+        height: 14px;
+    }
+
+    .navbar li {
+        font-size: 12px;
+    }
+
+    .login_button a, .contact_us a {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .login_button {
+
+        padding: 8px 22px;
+        border-radius: 6px;
+    }
+
+    header {
+        gap: 10px;
+        padding: 11px 0px 11px 8px;
+    }
+
+    .navbar {
+        gap: 19px;
+    }
+
+    .contact_us {
+        padding: 7px 14px;
+    }
+
+    nav {
+        display: flex;
+        padding-left: 6vw;
+    }
+}
+/*  HEADER HEADER HEADER HEADER  HEADER HEADER */
+
+.banner{
+    background-image: url(/assets/images/real-estate.webp);
+    height: 330px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4.5%;
+}
+
+.banner_container {
+    width: 52%;
+    background-color: #499a5aeb;
+    height: inherit;
+    margin-left: 6%;
+}
+
+.banner_container a{
+    text-decoration: none;
+}
+
+.service_lists {
+    display: flex;
+    gap: 6px;
+    width: 100%;
+    text-decoration: none;
+    padding: 15% 0% 7% 7%;
+    list-style-type: none;
+    text-align: center;
+}
+
+.service_lists li a {
+    color: white;
+    font-size: 14px;
+}
+
+.banner_container h2 {
+    font-size: 40px;
+    color: white;
+    padding-left: 38px;
+}
+
+.banner_buttons {
+    display: flex;
+    gap: 26px;
+    padding: 40px;
+}
+
+.button1 a{
+    color: white;
+
+}
+
+.button1 {
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    background-color: inherit;
+    padding: 12px 23px;
+    border-color: white;
+    border: 1px solid white;
+}
+
+
+
+.button2 {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #EF980C;
+    padding: 6px 16px;
+    border-radius: 7px;
+    background-color: white;
+    border: none;
+}
+
+.button2 a {
+    color: #EF980C;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.fumigation1 {
+    display: block;
+    padding-top: 72px;
+    width: 100%;
+}
+.fumigation_content {
+    display: flex;
+    gap: 15px;
+    margin: 0% 2% 3% 3%;
+}
+
+.header1{
+    width: 100%;
+    text-align: center;
+}
+
+.header1 h4 {
+    color: #499A5A;
+}
+
+.header1 h1 {
+    font-size: 30px;
+    padding: 11px 0px;
+}
+
+.header1 p {
+    font-weight: 500;
+    font-size: 14px;
+    width: 70%;
+    margin: 0% 15% 3.5%;
+    color: #7C7C7C;
+}
+
+.fumigation_left{
+    width: 55%;
+}
+
+.fumigation_left img{
+    width: 100%;
+}
+
+
+.phone_section {
+    display: flex;
+    align-items: center;
+}
+
+.book_online p{
+    color: white;
+}
+
+.phone_section p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.book_onlinep{
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: 700;
+    color: white;
+}
+
+.book_online {
+    width: 94%;
+    display: flex;
+    background-color: #499A5A;
+    align-items: center;
+    gap: 40px;
+    margin: 0px 0px 60px 35px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.fumigation_tips {
+    width: 74%;
+    margin: 2% 13%;
+    padding: 30px 60px 60px 60px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 23px;
+}
+
+.fumigation_line{
+    width: 100%;
+}
+
+.fumigation_line img{
+    width: 50%;
+}
+
+.request_fumigation h2 {
+    font-size: 22px;
+    color: #499A5A;
+    padding-left: 26px;
+}
+
+.request_fumigation p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0% 5%;
+}
+
+.opening_hours {
+    background-color: #f8f8f8;
+    color: #f2b553;
+    padding: 15px;
+    width: 92%;
+    margin: 3% 4% 10%;
+}
+
+.opening_hours h3{
+    font-size: 15px;
+}
+
+.opening_hours p {
+    font-size: 14px;
+    padding: 7px 0px;
+    font-weight: 500;
+}
+
+.opening_hours span {
+    padding-left: 14%;
+}
+
+.fumigation_right {
+    width: 44%;
+    padding: 17px 15px 0px;
+}
+
+.fumigation_right button {
+    border: none;
+    padding: 12px 23px;
+    border-radius: 8px;
+    margin: 0% 5%;
+    background-color: white;
+    box-shadow: 1px 3px 7px 3px rgba(225, 214, 214, 0.3);
+}
+
+.fumigation_right button a {
+    text-decoration: none;
+    color: #499A5A;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fumigation_list li {
+    margin-top: 30px;
+    font-weight: 500;
+    line-height: 22.5px;
+    font-size: 16px;
+}
+
+.fumigation_list {
+    list-style-position: inside;
+    padding-left: 20px;
+    
+}
+
+.fumigation_tips h3 {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 36px;
+}
+
+.fumigation_tips p{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.fumigation_list_heading1 {
+    margin-top: 20px;
+    line-height: 21px;
+}
+
+.fumigation_list_heading2{
+    padding-top: 7px;
+}
+
+.fumigation_background{
+    height: 20px;
+}
+
+.white_background{
+    height: 207px;
+    background-color: white;
+}
+
+
+.green_background {
+    height: 555px;
+    background-color: #499A5A;
+}
+
+.book_online_phone{
+    display: none;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.hera_footer {
+    width: 45%;
+    padding: 109px 30px 90px 82px;
+    font-size: 48px;
+    background-color: #000000;
+}
+
+.hera_footer p {
+    width: 61%;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    padding: 2% 0% 3% 0%;
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+.hera_footer h1 {
+    font-size: 23px;
+    color: white;
+}
+
+.footer_items h2 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer_items {
+    display: flex;
+    width: 55%;
+    gap: 29px;
+    padding-top: 55px;
+    color: white;
+    background-color: #000000;
+}
+
+.footer_items >div{
+    width: 33.3%;
+}
+
+.footer_items li{
+    list-style-type: none;
+
+}
+
+.footer-list li {
+    margin: 7.5% 0%;
+}
+
+.footer_items a {
+    text-decoration: none;
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+
+.hera_socials{
+    display: flex;
+    position: relative;
+    gap: 2%;
+    padding: 1% 0%;
+    background-color: #111111;
+    color: white;
+    width: 100%;
+}
+
+.connect_phone{
+    background-color: #1b1a1a;
+    display: flex;
+    color: white;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 13px 0px;
+}
+
+.connect_phone_left {
+    display: flex;
+    padding-left: 80px;
+    align-items: center;
+}
+
+.x{
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.connect_phone_right {
+    display: flex;
+    position: absolute;
+    right: 59px;
+}
+
+.handle_image{
+    scale: 0.8;
+}
+
+.connect_phone_right p {
+    padding-top: 3px;
+    padding-left: 9px;
+}
+
+.connect_phone_right a{
+    text-decoration: none;
+    color: white;
+}
+
+.connect_phone_right a:hover{
+    color: rgb(104, 110, 99);
+    font-weight: 500;
+}
+
+.hera_socials h3{
+    padding: 0% 5%;
+    font-size: 1.3rem;
+}
+
+.hera_num{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right:5%;
+}
+
+.footer-list li:hover a {
+    color: green;
+    font-size: 14.5px;
+    padding-left: 1px;
+}
+
+.hidden {
+    display: none;
+  }
+
+
+header input{
+    display: none;
+}
+
+
+
+
+/* phone toogle menu */
+.nav_phone{
+    display: none;
+}
+.menu-icon {
+    margin-right: 20px;
+    scale: 0.8;
+}
+.nav_phone {
+    text-align: center;
+    height: 90vh;
+}
+
+.menu_bar{
+    position: relative;
+    height: 50px;
+    background-color: #5c595970;
+}
+
+
+.back_icon{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+.back_icon img{
+    height: 40px;
+}
+
+.phone_navbar li {
+    text-align: start;
+    list-style-type: none;
+    padding: 12px 34px;
+    background-color: #7c7c7c70;
+    border-bottom: 1px solid #7f7f7f;
+}
+
+.phone_navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    
+}
+
+.phone_button {
+    margin-top: 36px;
+    border: none;
+    padding: 11px 20px;
+    background-color: #104D1D;
+}
+.phone_button a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    
+}
+
+
+.menu_footer{
+    background-color: #7C7C7C;
+    display: flex;
+}
+
+.menu_footer {
+    background-color: #7C7C7C;
+    display: flex;
+    padding: 15px 0px;
+    justify-content: center;
+    font-weight: 600;
+    color: #474747;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+/* phone toogle menu */
+
+
+
+/* MEDIA QUERY */
+@media screen  and (max-width:1180px) and (min-width:900px){
+    .banner_container {
+        width: 65%;
+    }
+
+    .service_lists{
+        padding: 13% 0% 5% 7%;
+    }
+
+    .fumigation_left {
+        width: 49%;
+    }
+
+    .fumigation_right {
+        width: 49%;
+        padding: 3px 11px 0px;
+    }
+
+    .request_fumigation p {
+        font-size: 13.5px;
+        font-weight: 500;
+        margin: 1% 5%;
+    }
+
+    .fumigation_content {
+        display: flex;
+        gap: 0px;
+        margin: 0% 0% 1% 1%;
+    }
+
+    .request_fumigation h2 {
+        font-size: 19px;
+        margin-bottom: -7px;
+    }
+
+    .opening_hours {
+        padding: 10px;
+        width: 92%;
+        margin: 2% 5% 5%;
+    }
+
+    .clock{
+        height: 10px;
+        width: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    .opening_hours h3 {
+        font-size: 13px;
+    }
+
+    .request_fumigation p {
+        font-size: 13.5px;
+        font-weight: 500;
+        margin: 0% 5% 1% 5%;
+    }
+
+    .fumigation_right button {
+        padding: 10px 17px;
+    }
+
+    .fumigation_right button a {
+        font-size: 14px;
+    }
+
+    .green_background {
+        height: 522px;
+        background-color: #499A5A;
+    }
+
+    .fumigation_line1{
+        width: 70%;
+    }
+    .fumigation_line1 img{
+        width: 100%;
+    }
+    
+    .fumigation_list li {
+        margin-top: 22px;
+    }
+
+    .fumigation_tips {
+        margin: 0% 13%;
+        padding: 20px 40px 30px 40px;
+    }
+    
+    .book_online {
+        width: 96%;
+        gap: 24px;
+        margin: 3% 0% 5%;
+        padding: 14px;
+    }    
+}
+
+@media screen and (max-width:900px) {
+
+    .fumigation_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fumigation_left {
+        width: 100%;
+    }
+
+    .fumigation_right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .opening_hours {
+        padding: 15px;
+        width: 92%;
+        margin: 3% 0% 4%;
+    }
+
+    .request_fumigation p {
+        font-size: 15.6px;
+        padding-top: 8px;
+        width: 89%;
+        font-weight: 500;
+        margin: 0% 0%;
+    }
+
+    .opening_hours,    .request_fumigation p, .opening_hours,
+    .request_fumigation h2,.fumigation_line1{
+        text-align: start;
+    }
+
+    .phone_section p {
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .book_onlinep {
+        font-size: 20px;
+    }
+
+    .book_online {
+        width: 82%;
+        gap: 15px;
+        margin: 0px 35px 60px;
+        padding: 11px;
+    }
+
+    .fumigation1 header h1 {
+        font-size: 26px;
+        padding: 6px 0px;
+    }
+
+    .fumigation1 header p {
+        font-size: 14px;
+        width: 76%;
+        margin: 1% 12% 4%;
+    }
+
+    .banner_container {
+        width: 81%;
+        background-color: #499a5aeb;
+        height: inherit;
+        margin-left: 9%;
+    }
+
+    .service_lists {
+        gap: 2px;
+        padding: 13% 0% 7% 7%;
+    }
+
+    .banner_container h2 {
+        font-size: 34px;
+    }
+
+    .button2 a {
+        font-size: 13px;
+    }
+
+    .phone_icon{
+        height: 20px;
+        width: 20px;
+    }
+
+    .fumigation_list li {
+        margin-top: 12px;
+        font-weight: 500;
+        line-height: 20.5px;
+        font-size: 13.5px;
+    }
+
+    .fumigation_tips p {
+        font-weight: 500;
+        font-size: 13.5px;
+    }
+
+    .fumigation_tips {
+        width: 75%;
+        margin: 2% 13%;
+        padding: 20px 30px 30px 30px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 23px;
+    }
+}
+
+@media screen and (max-width:900px) and (min-width:800px){
+    .green_background {
+        height: 486px;
+        background-color: #499A5A;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:700px){
+    
+    .banner_container {
+        width: 86%;
+        background-color: #499a5aeb;
+        height: inherit;
+        margin-left: 7%;
+    }
+    
+    .green_background {
+        height: 460px;
+        background-color: #499A5A;
+    }
+
+    .fumigation_list_heading1 {
+        margin-top: 7px;
+        line-height: 18px;
+    }
+
+    .fumigation_tips {
+        width: 78%;
+        margin: 2% 11%
+    }
+
+    .request_fumigation p {
+        font-size: 14px;
+        padding-top: 8px;
+        width: 84%;
+    }
+
+    .fumigation1 header h1 {
+        font-size: 23px;
+        padding: 6px 0px;
+    }
+
+    .request_fumigation h2 {
+        font-size: 18.5px;
+        color: #499A5A;
+        padding-left: 26px;
+    }
+
+    .banner_container h2 {
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:660px){
+    .banner {
+        height: 280px;
+    }
+
+    .service_lists li a {
+        color: white;
+        font-size: 12px;
+    }
+
+    .banner_container h2 {
+        font-size: 26px;
+    }
+
+    .banner_container {
+        width: 88%;
+        margin-left: 6%;
+    }
+    
+    .green_background {
+        height: 563px;
+        background-color: #499A5A;
+    }
+
+    .request_fumigation p {
+        font-size: 14px;
+        padding-top: 8px;
+        width: 84%;
+    }
+
+    .fumigation1 header h1 {
+        font-size: 23px;
+        padding: 6px 0px;
+    }
+
+    .request_fumigation h2 {
+        font-size: 18.5px;
+        color: #499A5A;
+        padding-left: 26px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .banner_container {
+        width: 95%;
+        margin-left: 11px;
+    }
+   
+    .fumigation_list li {
+        margin-top: 12px;
+        font-weight: 500;
+        line-height: 19px;
+        font-size: 12.5px;
+    }
+
+    .green_background {
+        height: 477px;
+        background-color: #499A5A;
+    }
+
+    .request_fumigation p {
+        font-size: 14px;
+        padding-top: 8px;
+        width: 84%;
+    }
+
+    .fumigation_tips p {
+        font-weight: 500;
+        font-size: 12.5px;
+        line-height: 18px;
+    }
+
+    .fumigation_tips {
+        width: 75%;
+        margin: 2% 13%;
+        padding: 20px 15px 30px 15px;
+    }
+
+    .fumigation_tips {
+        width: 80%;
+        margin: 2% 10%;
+        padding: 20px 15px 30px 15px;
+    }
+}
+
+@media screen and  (max-width:580px) and (min-width:180px){
+    .fumigation1 header {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .banner {
+        height: 288px;
+        background-position: 86%;
+    }
+
+    .banner_container {
+        padding: 0px 0px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .service_lists {
+        gap: 0px;
+        padding: 8% 0% 2% 5%;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    
+    .service_lists li a {
+        font-size: 11px;
+    }
+
+    .banner_container h2 {
+        font-size: 24px;
+        padding: 15px 24px 15px 24px;
+        color: white;
+    }
+
+    .banner_buttons {
+        gap: 18px;
+        padding: 40px;
+        flex-direction: column;
+        padding: 25px 23px 30px 23px;
+    }
+
+    .button2 {
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        padding: 12px 23px;
+    }
+
+    .button2 a {
+        font-size: 15px;
+        padding-bottom: 1px;
+    }
+
+    .fumigation_right {
+        width: 100%;
+        padding: 17px 15px 20px;
+    }
+
+    .fumigation1 {
+        padding-top: 34px;
+    }
+
+    .opening_hours {
+        padding: 5px;
+        width: 100%;
+        margin: 3% 0% 4%;
+    }
+
+    .fumigation1 header h4 {
+        color: #499A5A;
+        font-size: 15px;
+    }
+
+    .fumigation1 header h1 {
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+
+    .fumigation1 header p {
+        font-size: 14px;
+        padding: 0% 4% 7% 4%;
+        width: 100%;
+        font-weight: 500;
+        margin: 0%;
+    }
+
+    .fumigation_content {
+        margin: 0;
+    }
+    
+    .request_fumigation h2 {
+        font-size: 15px;
+        color: #499A5A;
+        padding-left: 24px;
+        margin-bottom: -5px;
+    }
+
+    .fumigation_line1{
+        width: 65%;
+    }
+    .fumigation_line1 img{
+        width: 100%;
+    }
+
+    .request_fumigation p {
+        font-size: 12.5px;
+        line-height: 17px;
+        font-weight: 550;
+        letter-spacing: 0.1px;
+        padding-top: 8px;
+        width: 85%;
+        color: #585858;
+    }
+
+    .opening_hours h3 {
+        font-size: 13px;
+    }
+
+    .fumigation_right button {
+        margin: 2% 5%;
+        background-color: white;
+        box-shadow: 1px 2px 4px 2px rgba(225, 214, 214, 0.3);
+    }
+
+    .opening_hours p {
+        font-size: 12px;
+        padding: 7px 0px;
+        font-weight: 500;
+    }
+
+    .clock{
+        height: 15px;
+        width: 15px;
+        margin-bottom: 12px;
+    }
+
+    .fumigation_right button a {
+        font-size: 11px;
+    }
+
+
+
+    .phone_section p {
+        font-size: 14px;
+    }
+
+    .book_online{
+        display: none;
+    }
+
+    .book_online_phone {
+        background-color: #499A5A;
+        display: flex;
+        gap: 35px;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .book_onlinep {
+        font-size: 16px;
+    }
+
+    .book_online_phone p {
+        color: white;
+        font-size: 14px;
+    }
+
+    .call_icon{
+        height: 20px;
+        width: 20px;
+    }
+
+    .phone_section {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+    }
+
+    .fumigation_tips p {
+        font-size: 11.5px;
+        line-height: 16px;
+    }
+
+    .fumigation_list li {
+        margin-top: 6px;
+        line-height: 19px;
+        font-size: 11.5px;
+    }
+
+    .fumigation_tips {
+        width: 90%;
+        margin: 2% 5%;
+        padding: 1px 15px 30px 1px;
+    }
+
+    .fumigation_tips h3 {
+        margin-top: 25px;
+        font-weight: 700;
+        font-size: 14px;
+        padding-left: 23px;
+        margin-bottom: -7px;
+    }
+
+    .fumigation_list_heading1 {
+        margin-top: 10px;
+    }
+
+    .white_background {
+        height: 130px;
+        background-color: white;
+    }
+
+    .green_background {
+        height: 388px;
+        background-color: #499A5A;
+    }   
+
+    .tips_header{
+        padding-left: 30px;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+    .green_background {
+        height: 410px;
+        background-color: #499A5A;
+    }   
+}
+    
+@media screen and (max-width:525px) {
+    .green_background {
+        height: 440px;
+        background-color: #499A5A;
+    }   
+}
+
+@media screen and (max-width:480px) {
+    .green_background {
+        height: 470px;
+        background-color: #499A5A;
+    }   
+}
+
+@media screen and (max-width:460px) {
+    .green_background {
+        height: 490px;
+        background-color: #499A5A;
+    }   
+}
+
+@media screen and (max-width:450px) {
+    .green_background {
+        height: 500px;
+        background-color: #499A5A;
+    }  
+    
+    .fumigation_list li {
+        margin-top: 6px;
+        line-height: 19px;
+        font-size: 11.2px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .green_background {
+        height: 530px;
+        background-color: #499A5A;
+    }   
+}
+
+@media screen and (max-width:390px) {
+    .green_background {
+        height: 530px;
+        background-color: #499A5A;
+    }  
+    
+    .fumigation_list li {
+        margin-top: 2px;
+        line-height: 19px;
+        font-size: 11.2px;
+    }
+
+    .fumigation_tips h3 {
+        margin-top: 10px;
+    }
+
+    .fumigation_list_heading1 {
+        margin-top: 4px;
+    }
+
+    .fumigation_list {
+        list-style-position: inside;
+        padding-left: 18px;
+    }
+
+    .fumigation_tips {
+        width: 96%;
+        margin: 2% 2%;
+        padding: 1px 15px 30px 5px;
+    }
+}
+
+@media screen and (max-width:360px) {
+        .green_background {
+        height: 489px;
+        background-color: #499A5A;
+    }
+    
+    .fumigation_tips p {
+        font-size: 10.5px;
+        line-height: 14px;
+    }
+
+    .fumigation_list li {
+        margin-top: 12px;
+        line-height: 17px;
+        font-size: 10.5px;
+    }
+}
+
+@media screen and (max-width:180px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner {
+        height: 170px;
+    }
+
+    .banner_container {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .banner_buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        padding: 2px;
+        justify-content: space-evenly;
+        align-content: center;
+        align-items: center;
+    }
+
+    .button1, .button2 {
+        border-radius: 5px;
+        color: white;
+        font-weight: 500;
+        width: 84%;
+        justify-content: center;
+        background-color: inherit;
+        padding: 1px 3px;
+        border-color: white;
+        border: 1px solid white;
+    }
+
+    .button1 a {
+        color: white;
+        font-size: 7px;
+    }
+
+    .button2 a {
+        font-size: 7px;
+    }
+
+    .phone_icon {
+        height: 16px;
+        width: 16px;
+    }
+
+    .service_lists {
+        flex-wrap: wrap;
+        padding: 0%;
+    }
+
+    .service_lists li a {
+        color: white;
+        font-size: 10.5px;
+    }
+
+    .banner_container h2 {
+        font-size: 18px;
+        padding-bottom: 3px;
+        padding-top: 6px;
+        padding-left: 3px;
+    }
+
+    .fumigation1 header h4 {
+        color: #499A5A;
+        font-size: 13px;
+    }
+
+    .fumigation1 header h1 {
+        font-size: 14px;
+        padding: 3px 0px;
+    }
+
+    .fumigation1 header p {
+        font-size: 9px;
+        width: 100%;
+        margin: 3px 3px 13px;
+    }
+
+    .request_fumigation h2 {
+        font-size: 9px;
+        color: #499A5A;
+        padding-left: 10px;
+        margin-bottom: -10px;
+    }
+
+    .fumigation_line1{
+        width: 70%;
+    }
+
+    
+    .fumigation_line1 img{
+        width: 100%;
+    }
+
+    .request_fumigation p {
+        font-size: 7px;
+        padding-top: 0px;
+        width: 100%;
+    }
+
+    .fumigation_right {
+        width: 100%;
+        padding: 1px 2px 0px;
+    }
+
+    .opening_hours h3 {
+        font-size: 8px;
+    }
+
+    .opening_hours p {
+        font-size: 6px;
+        padding: 7px 0px;
+        font-weight: 500;
+    }
+
+    .opening_hours span {
+        padding-left: 6%;
+    }
+
+    .clock{
+        display: none;
+    }
+
+    .opening_hours {
+        padding: 2px;
+        width: 92%;
+        margin: 3% 0% 4%;
+    }
+
+    .fumigation_right button a {
+        font-size: 6px;
+        font-weight: 500;
+    }
+
+    .fumigation_right button {
+        border: none;
+        padding: 3px 7px;
+        border-radius: 1px;
+        box-shadow: 0.01px 0.5px 0px 0.5px rgba(225, 214, 214, 0.3);
+    }
+
+    .book_online {
+        width: 100%;
+        gap: 1px;
+        margin: 0px 3px;
+        padding: 2px;
+    }
+
+    .phone_section p {
+        font-size: 10px;
+    }
+
+    .book_online{
+        display: none;
+    }
+
+    .book_online_phone{
+        display: flex;
+        background-color: #499A5A;
+        color: white;
+        justify-content: space-around;
+    }
+
+    .book_onlinep {
+        font-size: 12px;
+    }
+
+    .book_online_phone {
+        font-size: 10px;
+        padding: 4px;
+    }
+
+    .phone_section {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .fumigation_tips h3 {
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 11px;
+        padding-left: 36px;
+    }
+
+    .fumigation_line {
+        width: 100%;
+        display: none;
+    }
+
+    .green_background {
+        height: 809px;
+        background-color: #499A5A;
+    }
+
+}
+
+
+/* FOOTER */
+@media screen and (max-width: 771px){
+    header {
+        gap: 8%;
+        padding: 11px 0px 10px 16px;
+        flex-direction: row-reverse;
+    }
+
+    .navbar,     .nav_button{
+        display: none;
+    }
+
+    .footer-list li {
+        margin: 0px;
+    }
+
+    .footer_items {
+        line-height: 1.5;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .hera_logo {
+        line-height: 1px;
+        position: absolute;
+        left: 20px;
+    }
+
+    .hera_logo p {
+        font-size: 10px;
+        padding-top: 4px;
+    }
+
+    .hera_logo img {
+        height: 16px;
+        padding-bottom: 3px;
+    }
+
+}
+
+@media screen and (min-width: 851px) and (max-width: 1090px){
+
+    header {
+        gap: 1%;
+        padding: 8px 0px 4px 7px;
+    }
+
+    .navbar {
+        gap: 34px;
+    }
+
+    .hera_logo img {
+        height: 26px;
+    }
+
+    .hera_logo p {
+        font-size: 11px;
+    }
+
+    .navbar li {
+        font-size: 12px;
+    }
+
+    .contact_us {
+        padding: 10px 18px;
+        border-radius: 5px;
+    }
+
+    .navbar a:hover{
+        color: #1B7C30;
+        font-size: 13px;
+    }
+
+    .nav_button {
+        right: 21px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 772px) and (max-width: 900px) {
+
+    .hera_logo p {
+        font-size: 10px;
+    }
+
+    .hera_logo img {
+        height: 14px;
+    }
+
+    .navbar li {
+        font-size: 12px;
+    }
+
+    header {
+        gap: 10px;
+        padding: 9px 0px 9px 8px;
+    }
+
+    .navbar {
+        gap: 19px;
+    }
+
+    .contact_us {
+        padding: 7px 14px;
+    }
+
+    nav {
+        display: flex;
+        padding-left: 6vw;
+    }
+
+
+    .nav_button {
+        position: absolute;
+        right: 15px;
+        color: white;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (min-width:100px) and (max-width: 530px)  { 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+       
+    }
+
+    header {
+        gap: 8%;
+        flex-direction: row-reverse;
+    }
+
+    .hera_logo img {
+        padding-left: 20px;
+        padding-bottom: 2px;
+        height: 17px;
+    }
+
+    .hera_logo {
+        line-height: 5px;
+        position: absolute;
+        left: 0px;
+    }
+
+    .hera_logo p {
+        font-size: 9px;
+        padding-left: 22px;
+        padding-top: 4px;
+    }
+}
+
+
+@media screen and (min-width:531px) and (max-width:771px ){ 
+    .hera_footer {
+        width: 100%;
+        order: 2;
+        padding: 0px 30px 8px 22px;
+    }
+
+    .hera_footer p {
+        width: 61%;
+        font-size: 13px;
+    }
+
+    .hera_footer h1 {
+        font-size: 16px;
+    }
+
+    .hera_footer_logo img {
+        width: 83px;
+        height: 50px;
+    }
+
+    .hera_footer_logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .connect_phone_left {
+        display: flex;
+        padding-left: 22px;
+        align-items: center;
+    }
+
+    .connect_phone_left h3 {
+        font-size: 15px;
+    }
+
+    .handle_image {
+        scale: 0.65;
+    }
+    
+    .x {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .connect_phone_right a {
+        font-size: 15px;
+    }
+
+    .footer_items {
+        width: 100%;
+        padding: 4% 0%;
+        line-height: 1.8;
+        padding-left: 25px;
+    }
+
+
+    .footer_items a {
+        font-size: 12px;
+    }
+
+    .footer-list li:hover a {
+        font-size: 12.5px;
+    }
+
+
+    .footer_items h2 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .connect_phone {
+        padding: 6px 0px;
+        order: 3;
+    }
+}
+
+@media screen and (min-width:100px) and (max-width: 530px)  { 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+       
+    }
+
+    .hera_footer {
+        width: 100%;
+        order: 2;
+        padding: 8px 30px 0px 22px;
+    }
+
+    .hera_footer p {
+        width: 71%;
+        font-size: 13px;
+    }
+
+    .hera_footer h1 {
+        font-size: 16px;
+    }
+
+    .hera_footer_logo img {
+        width: 83px;
+        height: 50px;
+    }
+
+    .hera_footer_logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .connect_phone_left {
+        display: flex;
+        padding-left: 5%;
+        align-items: center;
+    }
+
+    .connect_phone_left h3 {
+        font-size: 15px;
+    }
+
+    .handle_image {
+        scale: 0.65;
+    }
+    
+    .x {
+        padding-left: 22px;
+        padding-right: 1px;
+    }
+
+    .connect_phone_right a {
+        font-size: 15px;
+    }
+
+    .footer_items >div {
+        width: 100%;
+    }
+
+    .footer_items {
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        padding: 4% 0%;
+        padding-left: 25px;
+    }
+
+    .footer_phone_number{
+        display: none;
+    }
+
+    .connect_phone_right {
+        left: 233px;
+    }
+
+    .footer_items a {
+        font-size: 12px;
+    }
+
+    .footer-list li:hover a {
+        font-size: 12.5px;
+    }
+
+
+    .footer_items h2 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .connect_phone {
+        padding: 6px 0px;
+        order: 3;
+    }
+
+    .faq{
+        order: 2;
+    }
+
+    .our_service_footer{
+        order: 1;
+    }
+
+    .more{
+        order: 3;
+    }
+
+    .header1 p {
+        font-weight: 500;
+        font-size: 14px;
+        width: 82%;
+        margin: 1% 9% 8.5%;
+        color: #7C7C7C;
+    }
+}
+
+@media screen and (max-width: 771px){
+    header {
+        gap: 8%;
+        padding: 11px 0px 10px 16px;
+        flex-direction: row-reverse;
+    }
+
+    .navbar,     .nav_button{
+        display: none;
+    }
+
+    .footer-list li {
+        margin: 0px;
+    }
+
+    .footer_items {
+        line-height: 1.5;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .hera_logo {
+        line-height: 1px;
+        position: absolute;
+        left: 22px;
+    }
+
+    .hera_logo p {
+        font-size: 10px;
+        padding-top: 4px;
+    }
+
+    .hera_logo img {
+        height: 16px;
+        padding-bottom: 3px;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1090px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+       
+    }
+
+    .footer_items >div {
+        width: 35.3%;
+        line-height: 2;
+    }
+
+    .footer_items {
+        display: flex;
+        width: 60%;
+        gap: 1px;
+        padding-top: 55px;
+        color: white;
+        background-color: #000000;
+    }
+
+    .hera_footer {
+        width: 40%;
+        padding: 109px 30px 90px 32px;
+        font-size: 48px;
+        background-color: #000000;
+    }
+
+    .hera_footer p {
+        width: 79%;
+        font-size: 13px;
+    }
+    
+    
+
+    .hera_identity img{
+        scale: 0.8;
+    }
+}
+
+
+
+
+
+
+
